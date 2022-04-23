@@ -26,7 +26,7 @@ header {
   grid-template-rows: auto;
   grid-gap: 40px;
   align-items: center;
-  background-color: #7cafc4;
+  background-color: #5697b3;
   color: #ffffff;
   padding: 2em;
   margin: 0 auto;
@@ -54,7 +54,7 @@ main li {
 }
 
 footer {
-  background-color: #7cafc4;
+  background-color: #5697b3;
   color: #ffffff;
   padding: 2em;
   margin: 0 auto;
