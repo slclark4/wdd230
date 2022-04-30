@@ -1,0 +1,64 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #0d2230;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #0d2230;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+header {
+  background-color: #509dce;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+section {
+  background-color: #dfedf6;
+  border: 1px #afd2e9 solid;
+  border-radius: 3px;
+  margin: 0.5em 0.5em 2em;
+  max-width: 300px;
+}
+
+.title {
+  background-color: #afd2e9;
+  margin: 0;
+  padding: 1em;
+  max-width: 250px;
+  /* text-align: center; */
+}
+
+h3 {
+  margin: 0;
+  height: 50px;
+}
+
+section img {
+  width: 100%;
+}
+
+section p,
+.company {
+  max-width: 250px;
+  margin: 1em;
+}
+
+section .img {
+  max-width: 250px;
+  margin: 1em auto;
+}
