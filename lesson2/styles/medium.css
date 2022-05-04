@@ -36,4 +36,8 @@
   section {
     height: fit-content;
   }
+
+  footer {
+    max-width: 600px;
+  }
 }
