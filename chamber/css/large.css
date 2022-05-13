@@ -1,0 +1,14 @@
+@media screen and (min-width: 55rem) {
+  nav ul {
+    display: block;
+  }
+
+  #navMenu {
+    display: flex;
+    flex: 1 1 100%;
+  }
+
+  nav button {
+    display: none;
+  }
+}

@@ -14,6 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link href="css/large.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
     <link href="css/base.css" rel="stylesheet" />
   </head>
   <body>
@@ -24,15 +26,16 @@
           alt="Twinsburg Chamber of Commerce Logo"
         />
       </div>
-        <div class="social-media">
-          <a>
-            <img src="images/facebook.png" alt="Facebook Profile Link" />
-          </a>
-          <a>
-            <img src="images/instagram.png" alt="Instagram Profile Link" />
-          </a>
-        </div>
-        <nav>
+      <p><strong>Twinsburg</strong><br /> Chamber of Commerce</p>
+      <div class="social-media">
+        <a>
+          <img src="images/facebook.png" alt="Facebook Profile Link" />
+        </a>
+        <a>
+          <img src="images/instagram.png" alt="Instagram Profile Link" />
+        </a>
+      </div>
+      <nav>
         <button id="menuButton">&#9776 <span id="closeMenu">x</span></button>
         <ul id="navMenu">
           <li>Home</li>
@@ -41,7 +44,7 @@
           <li>Join</li>
           <li>Contact</li>
         </ul>
-    </nav>
+      </nav>
         <p id="currentDate"></p>
     </header>
     <main>
@@ -49,30 +52,27 @@
       <div class="event">Events</div>
       <div class="weather">Weather</div>
       <div class="news-release">News Releases</div>
-      <div class="spotlights">
-        <ul>
+      <div class="join">Join</div>
+        <ul class="spotlights">
           <li>Spotlight 1</li>
           <li>Spotlight 2</li>
           <li>Spotlight 3</li>
         </ul>
-      </div>
     </main>
     <footer>
-      <div>
+      <div class="footer-commerce-info">
         <img
           src="images/twinsburg-logo.png"
           alt="Twinsburg Chamber of Commerce Logo"
         />
 
-        <p>12345 Main St, Twinsburg, Ohio 44087</p>
-        <div>
-          <p>info@chamberintwinsburg.com</p>
-          <p>+1 (330) 330-3300</p>
-          <p>Location Map</p>
-        </div>
+        <p><strong>Twinsburg Chamber of Commerce</strong><br />12345 Main St, Twinsburg, Ohio 44087</p>
+        
+        <p>info@chamberintwinsburg.com<br />+1 (330) 330-3300<br />Location Map</p>
+       
       </div>
-      <div>
-        <p>&copy; <span id="currentYear"></span></p>
+      <div class="footer-author-info">
+        <p>&copy; <span id="currentYear"></span> Twinsburg Chamber</p>
         <p>Stephanie Clark</p>
         <p>WDD 230 Project</p>
         <p>Last Modification: <span id="lastModified"></span></p>
