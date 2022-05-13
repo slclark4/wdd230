@@ -1,0 +1,104 @@
+/* Colors
+Black Olive - #35382E
+Orange Yellow Crayola - #FFD485
+White - #FFFFFF
+Wine - #632B30
+Blue Gray - #6699CC
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat" sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  font-family: "Montserrat" sans-serif;
+  background-color: #6699cc;
+  color: #fff;
+  padding: 2vw;
+  display: grid;
+  grid-template-columns: 110px 1fr 110px 1fr;
+  grid-template-rows: 1fr 50px;
+}
+
+header div img {
+  width: 100%;
+}
+
+.img-container {
+  width: 100px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.social-media {
+  width: 100px;
+  display: flex;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.social-media a {
+  margin: 5px;
+}
+
+#navMenu {
+  list-style-type: none;
+  padding: 0;
+  background-color: #35382e;
+  color: #ffd485;
+
+  margin: 0;
+  height: fit-content;
+  width: fit-content;
+}
+
+#navMenu li {
+  margin: 2vw;
+  display: none;
+}
+
+#navMenu.open li {
+  display: block;
+}
+
+nav {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  justify-self: flex-end;
+}
+
+nav button {
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  color: #fff;
+}
+
+#closeMenu {
+  display: none;
+}
+
+#currentDate {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  justify-self: center;
+}
+
+main,
+footer {
+  font-family: "Open Sans" sans-serif;
+}
+
+footer {
+  background-color: #6699cc;
+  color: #fff;
+}

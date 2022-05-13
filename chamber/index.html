@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stephanie's Chamber of Commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Stephanie's chamber of commerce website home page."
+    />
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/base.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="img-container">
+        <img
+          src="images/twinsburg-logo.png"
+          alt="Twinsburg Chamber of Commerce Logo"
+        />
+      </div>
+        <div class="social-media">
+          <a>
+            <img src="images/facebook.png" alt="Facebook Profile Link" />
+          </a>
+          <a>
+            <img src="images/instagram.png" alt="Instagram Profile Link" />
+          </a>
+        </div>
+        <nav>
+        <button id="menuButton">&#9776 <span id="closeMenu">x</span></button>
+        <ul id="navMenu">
+          <li>Home</li>
+          <li>Discovery</li>
+          <li>Directory</li>
+          <li>Join</li>
+          <li>Contact</li>
+        </ul>
+    </nav>
+        <p id="currentDate"></p>
+    </header>
+    <main>
+      <div class="hero">Hero with call to action</div>
+      <div class="event">Events</div>
+      <div class="weather">Weather</div>
+      <div class="news-release">News Releases</div>
+      <div class="spotlights">
+        <ul>
+          <li>Spotlight 1</li>
+          <li>Spotlight 2</li>
+          <li>Spotlight 3</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <img
+          src="images/twinsburg-logo.png"
+          alt="Twinsburg Chamber of Commerce Logo"
+        />
+
+        <p>12345 Main St, Twinsburg, Ohio 44087</p>
+        <div>
+          <p>info@chamberintwinsburg.com</p>
+          <p>+1 (330) 330-3300</p>
+          <p>Location Map</p>
+        </div>
+      </div>
+      <div>
+        <p>&copy; <span id="currentYear"></span></p>
+        <p>Stephanie Clark</p>
+        <p>WDD 230 Project</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/navMenu.js"></script>
+    <script src="scripts/getCurrentDate.js"></script>
+    <script src="scripts/getLastModifiedDate.js"></script>
+    <script src="scripts/getCurrentYear.js"></script>
+  </body>
+</html>
