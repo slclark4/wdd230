@@ -20,31 +20,38 @@
   </head>
   <body>
     <header>
-      <div class="img-container">
-        <img
-          src="images/twinsburg-logo.png"
-          alt="Twinsburg Chamber of Commerce Logo"
-        />
-      </div>
-      <p><strong>Twinsburg</strong><br /> Chamber of Commerce</p>
-      <div class="social-media">
-        <a>
-          <img src="images/facebook.png" alt="Facebook Profile Link" />
-        </a>
-        <a>
-          <img src="images/instagram.png" alt="Instagram Profile Link" />
-        </a>
-      </div>
-      <nav>
-        <button id="menuButton">&#9776 <span id="closeMenu">x</span></button>
-        <ul id="navMenu">
-          <li>Home</li>
-          <li>Discovery</li>
-          <li>Directory</li>
-          <li>Join</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+      <div class="header-flex-container">
+        <div>
+          <img class="logo"
+            src="images/twinsburg-logo.png"
+            alt="Twinsburg Chamber of Commerce Logo"
+          />
+        
+          <p><strong>Twinsburg</strong><br /> Chamber of Commerce</p>
+        </div>
+        <div class="media-nav">
+          <a>
+            <img src="images/facebook.png" alt="Facebook Profile Link" />
+          </a>
+          <a>
+            <img src="images/instagram.png" alt="Instagram Profile Link" />
+          </a>
+          <button id="menuButton">&#9776 <span id="closeMenu">x</span></button>
+        </div>
+        
+       
+    </div>
+    <nav>
+          
+      <ul id="navMenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Discovery</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
         <p id="currentDate"></p>
     </header>
     <main>
