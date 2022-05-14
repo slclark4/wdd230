@@ -5,6 +5,6 @@ const options = {
   month: "long",
   day: "numeric",
 };
-const today = date.toLocaleDateString("en-us", options);
+const today = date.toLocaleDateString("en-uk", options);
 
 document.getElementById("currentDate").textContent = today;
