@@ -106,46 +106,7 @@
 
   /* Footer Styles */
 
-  .footer-author-info,
-  .footer-commerce-info {
-    max-width: 1050px;
-  }
-  .footer-commerce-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-  }
-
-  .footer-commerce-info div {
-    display: flex;
-    align-items: center;
-    padding-right: 2em;
-  }
-
-  .footer-commerce-info p {
-    border: none;
-    margin: 0.5em;
-    padding: 0;
-  }
-
-  .footer-commerce-info p:nth-of-type(1) {
-    padding-left: 2em;
-  }
-
-  .footer-author-info {
-    display: flex;
-    flex-direction: row;
-    border-top: rgba(99, 43, 48, 0.75) 2px solid;
-  }
-
   .footer-author-info p {
     padding: 0 1em;
-    margin: 0.5em 0;
-    border-right: #632b30 1.5px solid;
-  }
-
-  .footer-author-info p:nth-of-type(4) {
-    border: none;
   }
 }
