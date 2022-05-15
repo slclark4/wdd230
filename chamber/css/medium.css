@@ -94,6 +94,7 @@
   }
 
   .footer-author-info p {
+    padding: 0 1em;
     margin: 0.5em 0;
     border-right: #632b30 1.5px solid;
   }

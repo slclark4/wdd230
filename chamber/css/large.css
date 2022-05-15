@@ -103,10 +103,4 @@
   body main .spotlights {
     width: 20vw;
   }
-
-  /* Footer Styles */
-
-  .footer-author-info p {
-    padding: 0 1em;
-  }
 }
