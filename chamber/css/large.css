@@ -55,10 +55,18 @@
     align-content: flex-start;
     justify-items: center;
   }
-  main .hero {
+  main .hero-container {
     height: 550px;
     grid-column: 2;
     grid-row: 1 / span 3;
+  }
+
+  .hero-container img {
+    height: 550px;
+  }
+
+  .hero-container button {
+    font-size: 1.3em;
   }
 
   body main .event {
