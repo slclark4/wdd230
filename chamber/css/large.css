@@ -69,15 +69,17 @@
     font-size: 1.3em;
   }
 
-  body main .event {
+  body main .event-container {
     grid-column: 1;
     grid-row: 1;
     margin-bottom: 0.5em;
+    max-width: 20vw;
   }
 
-  body main .weather {
+  body main .weather-container {
     grid-column: 1;
     grid-row: 2;
+    max-width: 20vw;
   }
 
   main .join {
@@ -86,7 +88,7 @@
     width: 100%;
   }
 
-  main .news-release {
+  main .news-release-container {
     grid-column: 2;
     grid-row: 3;
   }
