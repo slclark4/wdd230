@@ -38,6 +38,7 @@ header {
   font-size: 1.5em;
   padding: 1em;
   display: none;
+  text-align: center;
 }
 
 .logo {
@@ -111,13 +112,6 @@ header p:nth-of-type(1) {
   display: block;
 }
 
-header button {
-  background: transparent;
-  border: none;
-  font-size: 30px;
-  color: #fff;
-}
-
 #closeMenu {
   display: none;
 }
@@ -176,16 +170,17 @@ header button {
   text-align: center;
 }
 
-.hero-container button {
+.hero-container a {
   background-color: rgb(99, 43, 48);
   color: #fff;
   border: 1px #fff solid;
   border-radius: 2px;
   padding: 0.5em;
   font-size: 1em;
+  text-decoration: none;
 }
 
-.hero-container button:hover {
+.hero-container a:hover {
   background-color: rgba(99, 43, 48, 0.6);
 }
 
