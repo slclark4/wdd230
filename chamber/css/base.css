@@ -32,6 +32,14 @@ header {
   color: #fff;
 }
 
+#banner {
+  background-color: #35382e;
+  color: #ffd485;
+  font-size: 1.5em;
+  padding: 1em;
+  display: none;
+}
+
 .logo {
   width: 60px;
   padding: 0.5em;
