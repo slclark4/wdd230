@@ -30,7 +30,7 @@
         <div>
           <img
             class="logo"
-            src="images/twinsburg-logo.png"
+            src="images/logo.webp"
             alt="Twinsburg Chamber of Commerce Logo"
           />
 
@@ -69,13 +69,45 @@
           <h1>Welcome to Twinsburg</h1>
           <a href="#">Sign up today!</a>
         </div>
-        <img
-          src="images/hello-background.jpeg"
-          alt="Pond scenery common in this part of Ohio"
-        />
+        <picture>
+          <!-- <source media=" (min-width: 1201px) " srcset="images/large.jpg" />
+          <source srcset="images/medium.jpg" media=" (min-width: 992px) " /> -->
+          <source
+            media="(min-width: 1200px)"
+            srcset="images/hero-background-large.jpg"
+          />
+          <source
+            media="(min-width: 992px)"
+            srcset="images/hero-background-1200.jpg"
+          />
+          <source
+            media="(min-width: 800px)"
+            srcset="images/hero-background-1000.jpg"
+          />
+          <source
+            srcset="images/hero-background-800.jpg"
+            media="(min-width: 600px)"
+          />
+          <source
+            media="(min-width: 400px)"
+            srcset="images/hero-background-600.jpg"
+          />
+          <source
+            media="(min-width: 200px)"
+            srcset="images/hero-background-400.jpg"
+          />
+          <!-- <source media="(min-width: 200px)" srcset="images/small.jpg" /> -->
+          <img
+            src="images/hero-background-2-800.jpg"
+            alt="Pond scenery common in this part of Ohio"
+          />
+        </picture>
       </div>
       <div class="event-container">
         <h3>County Fair</h3>
+        <picture>
+          <img src="images/ferris-wheel.svg" alt="Ferris Wheel at the fair" />
+        </picture>
         <p>
           Ready for fair food? Ready for rides? It's coming to Twinsburg on June
           24th - June 26th. Get discounted tickets as a member of our chamber!
@@ -83,6 +115,17 @@
       </div>
       <div class="weather-container">
         <h3>Weather</h3>
+        <div class="temp-container">
+          <picture>
+            <img src="images/cloudy.svg" alt="Cloudy Day" />
+          </picture>
+          <p><span id="temp">43</span>°F</p>
+        </div>
+        <p class="weather-type">Cloudy</p>
+        <div class="wind-container">
+          <p>Wind Speed: <span id="windSpeed">5</span>mph</p>
+          <p>Wind Chill: <span id="windChill"></span>°F</p>
+        </div>
       </div>
       <div class="news-release-container">
         <h3>County Fair Contests!</h3>
@@ -96,11 +139,23 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-      <div class="join">Join</div>
+      <div class="join">
+        <h3>Join Today!</h3>
+        <picture>
+          <img src="images/handshake.svg" alt="Handshake Icon" />
+        </picture>
+        <a href="#">Join Now</a>
+        <p>
+          Join today! You won't regret all of the beneifts that come with being
+          a member!
+        </p>
+      </div>
       <ul class="spotlights">
-        <li>Spotlight 1</li>
-        <li>Spotlight 2</li>
-        <li>Spotlight 3</li>
+        <li>
+          <h3>Animal Shelter Fundraiser</h3>
+        </li>
+        <li><h3>Police Pizza Party</h3></li>
+        <li><h3>Support Our Local Athletes</h3></li>
       </ul>
     </main>
     <footer>
@@ -134,5 +189,6 @@
     <!-- Scripts -->
     <script src="scripts/navMenu.js"></script>
     <script src="scripts/dates.js"></script>
+    <script src="scripts/windChill.js"></script>
   </body>
 </html>
