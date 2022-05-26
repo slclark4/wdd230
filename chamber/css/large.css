@@ -82,7 +82,7 @@
     max-width: 20vw;
   }
 
-  main .join {
+  main .join-container {
     grid-column: 1;
     grid-row: 3;
     width: 100%;
@@ -109,7 +109,7 @@
 
   body main .event,
   body main .weather,
-  body main .join,
+  body main .join-container,
   body main .spotlights {
     width: 20vw;
   }
