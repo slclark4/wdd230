@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stephanie's Chamber of Commerce - Discover Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Stephanie's chamber of commerce website discover page to show the city of Twinsburg and surrounding areas."
+    />
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="banner">
+      <p>
+        Come and join us for the meet and greet on <b>Wednesday at 7:00pm</b>
+      </p>
+    </div>
+    <header>
+      <div class="header-flex-container">
+        <div>
+          <img
+            class="logo"
+            src="images/logo.webp"
+            alt="Twinsburg Chamber of Commerce Logo"
+          />
+
+          <p>
+            <strong>Twinsburg</strong><br />
+            Chamber of Commerce
+          </p>
+        </div>
+        <div class="media-nav">
+          <a href="#">
+            <img src="images/facebook.png" alt="Facebook Profile Link" />
+          </a>
+          <a href="#">
+            <img src="images/instagram.png" alt="Instagram Profile Link" />
+          </a>
+          <button id="menuButton">
+            <span id="symbol">&#9776;</span><span id="closeMenu">x</span>
+          </button>
+        </div>
+      </div>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discovery</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <p id="currentDate"></p>
+    </header>
+    <main class="discover">
+      <section class="image-gallery">
+        <h1>Twinsburg Gallery</h1>
+        <picture>
+          <img
+            src="images/discover/brandywine-falls-small-ph.jpg"
+            data-src="images/discover/brandywine-falls-small.jpg"
+            alt="Brandywine Falls"
+          />
+          <p>
+            Brandywine Falls - A popular attraction in Cuyahoga Valley National
+            Park
+          </p>
+        </picture>
+        <picture>
+          <img
+            src="images/discover/white-tail-deer-small-ph.jpg"
+            data-src="images/discover/white-tail-deer-small.jpg"
+            alt="Whitetail Deer"
+          />
+          <p>A common sight around is the whitetail deer</p>
+        </picture>
+        <picture>
+          <img
+            src="images/discover/cuyahoga-valley-np-small-ph.jpg"
+            data-src="images/discover/cuyahoga-valley-np-small.jpg"
+            alt="Cuyahoga Valley National Park"
+          />
+          <p>Cuyahoga Valley National Park</p>
+        </picture>
+        <picture>
+          <img
+            src="images/discover/historical-society-small-ph.jpg"
+            data-src="images/discover/historical-society-small.jpg"
+            alt="Twinsburg Historical Society"
+          />
+          <p>The Historical Society in Twinsburg</p>
+        </picture>
+        <picture>
+          <img
+            src="images/discover/cardinal-small-ph.jpg"
+            data-src="images/discover/cardinal-small.jpg"
+            alt="Ohio State Bird, the Cardinal"
+          />
+          <p>
+            Ohio's state bird, the cardinal, is easy to spot here in Twinsburg
+          </p>
+        </picture>
+      </section>
+      <div>
+        <section class="demographics">
+          <div>
+            <h3>Demographics</h3>
+            <p>State: <span>Ohio</span></p>
+            <p>County: <span>Summit</span></p>
+            <p>Land Area (mi²): <span>13.8 sq mi</span></p>
+            <p>Annual Growth Rate: <span>0.49% (94)</span></p>
+            <p>Growth Since 2010 <span>3.40% (630)</span></p>
+            <p>Population: <span>19,138</span></p>
+          </div>
+          <div>
+            <h3>Housing and Living</h3>
+            <p>Median Rental Costs: <span>$1,098 /month</span></p>
+            <p>Median House Value: <span>$218,200</span></p>
+          </div>
+        </section>
+
+        <section class="about">
+          <h3>About Twinsburg</h3>
+          <p>
+            A little about Twinsburg. Twinsburg is a great place to settle with
+            your family. With a smaller population to feel like a small town,
+            but close enough to stores to have access to everything you need,
+            makes Twinsburg a special place to live! Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-commerce-info">
+        <div>
+          <img
+            src="images/twinsburg-logo.png"
+            alt="Twinsburg Chamber of Commerce Logo"
+          />
+
+          <p>
+            <strong>Twinsburg Chamber of Commerce</strong><br />12345 Main St,
+            Twinsburg, Ohio 44087
+          </p>
+        </div>
+
+        <p class="contact-info">
+          info@chamberintwinsburg.com<br />+1 (330) 330-3300<br /><a href="#"
+            >Location Map</a
+          >
+        </p>
+      </div>
+      <div class="footer-author-info">
+        <p>&copy; <span id="currentYear"></span> Twinsburg Chamber</p>
+        <p>Stephanie Clark</p>
+        <p>WDD 230 Project</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/navMenu.js"></script>
+    <script src="scripts/dates.js"></script>
+    <script src="scripts/discoverLazyLoading.js"></script>
+  </body>
+</html>

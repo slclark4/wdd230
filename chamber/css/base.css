@@ -143,7 +143,7 @@ header p:nth-of-type(1) {
   text-align: center;
 }
 
-/* Main Styles */
+/* Home Page - Main Styles */
 
 .spotlights {
   background-color: #632b30;
@@ -189,7 +189,7 @@ header p:nth-of-type(1) {
   background-color: rgba(99, 43, 48, 0.6);
 }
 
-h1 {
+.home h1 {
   display: block;
   width: 100%;
   margin: 0 0 0.5em;
@@ -199,7 +199,11 @@ h1 {
   /* text-align: center; */
 }
 
-.event-container {
+.event-container,
+.weather-container,
+.news-release-container,
+.demographics,
+.about {
   background-color: #632b30;
   border: 2px solid rgba(0, 0, 0, 0.8);
   color: #fff;
@@ -217,16 +221,6 @@ h3 {
   border-radius: 3px;
   padding: 10px;
   margin: 0 auto 0.75em;
-}
-
-.weather-container {
-  background-color: #632b30;
-  border: 2px solid rgba(0, 0, 0, 0.8);
-  color: #fff;
-  max-width: 92vw;
-  text-align: center;
-  margin: 0.5em;
-  padding: 1em 0.5em;
 }
 
 .weather-container p {
@@ -261,16 +255,6 @@ p.weather-type {
   font-size: 3em;
 }
 
-.news-release-container {
-  background-color: #632b30;
-  border: 2px solid rgba(0, 0, 0, 0.8);
-  color: #fff;
-  max-width: 92vw;
-  text-align: center;
-  margin: 0.5em;
-  padding: 1em 0.5em;
-}
-
 .join-container {
   display: none;
 }
@@ -292,6 +276,56 @@ p.weather-type {
 .spotlights li:nth-of-type(3) {
   display: none;
 }
+
+/* Discover Page - Main Styles */
+.demographics,
+.about {
+  max-width: 20em;
+}
+
+.about p {
+  padding: 0.3em;
+}
+
+.discover h1 {
+  text-align: center;
+  color: #35382e;
+}
+
+.demographics div {
+  padding: 1em;
+  border: 1px black solid;
+  margin: 0.5em 0;
+}
+
+.discover section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em auto 3em;
+}
+
+.discover picture {
+  max-width: 92vw;
+  margin: 1.5em auto;
+}
+
+.discover img {
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.discover picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+.discover picture img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+/* Footer Styles */
 
 footer {
   background-color: #336699;

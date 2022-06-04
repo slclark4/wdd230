@@ -1,8 +1,11 @@
 @media screen and (min-width: 40rem) {
+  /* Header Styles */
   header {
     align-content: flex-start;
   }
-  main {
+
+  /* Home Page Styles */
+  .home {
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr 325px;
@@ -95,6 +98,16 @@
     width: 300px;
     grid-column: 2 / 3;
     grid-row: 5;
+  }
+
+  /* Discover Page Styles */
+  .discover .demographics {
+    height: fit-content;
+  }
+
+  .discover {
+    display: grid;
+    grid-template-columns: 60% 40%;
   }
 
   /* Footer Styles */
