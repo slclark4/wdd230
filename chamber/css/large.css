@@ -47,7 +47,7 @@
     display: none;
   }
 
-  /* Main Styles */
+  /* Home Page Styles */
   body main {
     grid-template-columns: 25vw 50vw 25vw;
     grid-template-rows: 1fr 1fr 1fr;
@@ -112,5 +112,14 @@
   body main .join-container,
   body main .spotlights {
     width: 20vw;
+  }
+
+  /* Discover Page Styles */
+  .discover picture {
+    width: 550px;
+  }
+
+  body main.discover {
+    grid-template-rows: auto;
   }
 }

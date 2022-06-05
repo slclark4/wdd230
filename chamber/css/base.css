@@ -55,7 +55,6 @@ header p:nth-of-type(1) {
   grid-column: 2 / 3;
   grid-row: 1;
   margin: 0.5em 0;
-  padding: 0.5em;
   justify-self: flex-start;
 }
 
@@ -132,7 +131,7 @@ header p:nth-of-type(1) {
   padding-left: 0.4em;
 }
 
-#currentDate {
+.currentDate {
   grid-column: 1 / 5;
   grid-row: 2 / 3;
   align-self: center;
@@ -308,6 +307,7 @@ p.weather-type {
 .discover picture {
   max-width: 92vw;
   margin: 1.5em auto;
+  text-align: center;
 }
 
 .discover img {
