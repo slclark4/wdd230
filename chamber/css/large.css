@@ -115,7 +115,7 @@
   }
 
   /* Discover Page Styles */
-  .discover picture {
+  .discover .image-gallery div {
     width: 550px;
   }
 

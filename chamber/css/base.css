@@ -304,7 +304,7 @@ p.weather-type {
   margin: 1em auto 3em;
 }
 
-.discover picture {
+.discover .image-gallery div {
   max-width: 92vw;
   margin: 1.5em auto;
   text-align: center;

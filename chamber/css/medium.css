@@ -109,7 +109,7 @@
     grid-template-columns: 60% 40%;
   }
 
-  .discover picture {
+  .discover .image-gallery div {
     width: 350px;
   }
 
