@@ -1,6 +1,15 @@
-const dayVisited = date.now();
+const dayVisited = new Date();
+
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 let lastDayVisited = localStorage.getItem("lastDayVisited");
+
+const options = {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+};
+const today = dayVisited.toLocaleDateString("en-uk", options);
 
 if (numVisits == false) {
   localStorage.setItem("visits-ls", "0");
@@ -11,7 +20,5 @@ if (numVisits == false) {
 if (lastDayVisited == false) {
   localStorage.setItem("lastDayVisited", "0");
 } else {
-  localStorage["lastDayVisited"] = dayVisited;
+  localStorage.setItem("lastDayVisited", today);
 }
-
-console.log(lastDayVisited);
