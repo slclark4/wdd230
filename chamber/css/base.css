@@ -333,12 +333,14 @@ p.weather-type {
 }
 
 .join h1 {
-  margin: 0 auto;
+  margin: 1em auto 0;
 }
 
 .join .form {
-  grid-column: 1;
   padding: 4vw;
+  width: 90%;
+  max-width: 625px;
+  margin: 0 auto;
 }
 
 .join .form fieldset {
@@ -358,6 +360,8 @@ p.weather-type {
   height: 2em;
   display: block;
   width: 90%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .join .form textarea {
@@ -374,6 +378,43 @@ p.weather-type {
   margin: 0 auto;
   margin-top: 1em;
   display: block;
+}
+
+.membership-levels {
+  padding-top: 3em;
+}
+
+.membership-levels ul {
+  list-style: none;
+  padding: 0 1em 3em;
+  max-width: 950px;
+  /* margin: 0 auto; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.membership-levels li {
+  background-color: #35382e;
+  border-radius: 3px;
+  color: #ffd485;
+  padding: 10px;
+  margin: 10px;
+  max-width: 425px;
+}
+
+.membership-levels li h4 {
+  margin: 5px auto;
+}
+
+/* Thank you Page Styles */
+.thank-you div {
+  border: 3px solid #632b30;
+  padding: 2em;
+  margin: 7em auto;
+  width: 90%;
+  max-width: 625px;
+  background-color: rgba(99, 43, 48, 0.1);
 }
 
 /* Footer Styles */

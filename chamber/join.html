@@ -66,7 +66,7 @@
     <main class="join">
       <h1>Join Us!</h1>
       <section class="form">
-        <h2>Fill out the form!</h2>
+        <h3>Fill out the form!</h3>
         <form method="get" action="thankyou.html">
           <fieldset>
             <legend>Individual Information</legend>
@@ -79,12 +79,13 @@
               <input type="text" name="lname" required />
             </label>
             <label
-              >Business Position Title:
+              >Business Position Title (only upper-case, spaces, and / allowed):
               <input
                 type="text"
                 name="positionTitle"
                 placeholder="Director of Operations"
                 minlength="7"
+                pattern="^[A-Z\s/]*$"
               />
             </label>
             <label
@@ -142,6 +143,7 @@
               Membership
             </label>
           </fieldset>
+          <!-- WORK ON HIDDEN FIELD -->
           <input type="hidden" name="dateSubmitted" />
           <input type="submit" name="submit" id="join-form" value="Join Now" />
         </form>
