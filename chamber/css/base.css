@@ -325,6 +325,57 @@ p.weather-type {
   transition: filter 0.5s;
 }
 
+/*  Join Page Styles */
+.join {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+}
+
+.join h1 {
+  margin: 0 auto;
+}
+
+.join .form {
+  grid-column: 1;
+  padding: 4vw;
+}
+
+.join .form fieldset {
+  padding: 10px;
+}
+
+.join .form label {
+  display: block;
+  font-size: 1em;
+  padding: 10px 0;
+}
+
+.join .form fieldset:nth-of-type(1) input,
+.join .form fieldset:nth-of-type(2) input,
+.join .form textarea {
+  font-size: 1em;
+  height: 2em;
+  display: block;
+  width: 90%;
+}
+
+.join .form textarea {
+  height: 6em;
+}
+
+#join-form {
+  background-color: rgb(99, 43, 48);
+  color: #fff;
+  border: 1px #000 solid;
+  border-radius: 2px;
+  padding: 0.5em;
+  font-size: 1.25em;
+  margin: 0 auto;
+  margin-top: 1em;
+  display: block;
+}
+
 /* Footer Styles */
 
 footer {

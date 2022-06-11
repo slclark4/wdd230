@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stephanie's Chamber of Commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Stephanie's chamber of commerce website home page."
+    />
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="banner">
+      <p>
+        Come and join us for the meet and greet on <b>Wednesday at 7:00pm</b>
+      </p>
+    </div>
+    <header>
+      <div class="header-flex-container">
+        <div>
+          <img
+            class="logo"
+            src="images/logo.webp"
+            alt="Twinsburg Chamber of Commerce Logo"
+          />
+
+          <p>
+            <strong>Twinsburg</strong><br />
+            Chamber of Commerce
+          </p>
+        </div>
+        <div class="media-nav">
+          <a href="#">
+            <img src="images/facebook.png" alt="Facebook Profile Link" />
+          </a>
+          <a href="#">
+            <img src="images/instagram.png" alt="Instagram Profile Link" />
+          </a>
+          <button id="menuButton">
+            <span id="symbol">&#9776;</span><span id="closeMenu">x</span>
+          </button>
+        </div>
+      </div>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discovery</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <p class="currentDate"><span id="currentDate"></span></p>
+    </header>
+    <main class="thank-you"></main>
+    <footer>
+      <div class="footer-commerce-info">
+        <div>
+          <img
+            src="images/logo.webp"
+            alt="Twinsburg Chamber of Commerce Logo"
+            width="100px"
+            height="100px"
+          />
+
+          <p>
+            <strong>Twinsburg Chamber of Commerce</strong><br />12345 Main St,
+            Twinsburg, Ohio 44087
+          </p>
+        </div>
+
+        <p class="contact-info">
+          info@chamberintwinsburg.com<br />+1 (330) 330-3300<br /><a href="#"
+            >Location Map</a
+          >
+        </p>
+      </div>
+      <div class="footer-author-info">
+        <p>&copy; <span id="currentYear"></span> Twinsburg Chamber</p>
+        <p>Stephanie Clark</p>
+        <p>WDD 230 Project</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/navMenu.js"></script>
+    <script defer src="scripts/dates.js"></script>
+    <script defer src="scripts/windChill.js"></script>
+  </body>
+</html>
