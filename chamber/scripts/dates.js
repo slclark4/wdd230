@@ -10,6 +10,9 @@ const options = {
   day: "numeric",
 };
 const today = date.toLocaleDateString("en-uk", options);
+const dateSubmitted = date.toLocaleString("en-US", {
+  hour12: true,
+});
 
 const day = date.getDay();
 if (day === 1 || day === 2) {
@@ -19,3 +22,4 @@ if (day === 1 || day === 2) {
 document.querySelector("#currentYear").textContent = currentYear;
 document.getElementById("lastModified").textContent = lastModified;
 document.getElementById("currentDate").textContent = today;
+document.getElementById("dateSubmitted").value = dateSubmitted;
