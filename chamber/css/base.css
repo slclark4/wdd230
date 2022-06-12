@@ -412,9 +412,12 @@ p.weather-type {
   border: 3px solid #632b30;
   padding: 2em;
   margin: 7em auto;
-  width: 90%;
   max-width: 625px;
   background-color: rgba(99, 43, 48, 0.1);
+}
+
+.thank-you {
+  padding: 0 1em;
 }
 
 /* Footer Styles */
