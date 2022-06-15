@@ -8,16 +8,15 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject); // temporary checking for valid response and data parsing
+    const prophets = jsonObject["prophets"];
+    prophets.forEach(displayProphets);
   });
-
-const prophets = jsonObject["prophets"];
-
-prophets.forEach(displayProphets);
 
 function displayProphets(prophet) {
   // Create elements to add to the document
   let card = document.createElement("section");
   let h2 = document.createElement("h2");
+  let imgContainer = document.createElement("div");
   let portrait = document.createElement("img");
   let birthday = document.createElement("p");
   let birthplace = document.createElement("p");
@@ -35,11 +34,13 @@ function displayProphets(prophet) {
   );
   portrait.setAttribute("loading", "lazy");
 
+  imgContainer.appendChild(portrait);
+
   // Add/append the section(card) with the h2 element
   card.appendChild(h2);
   card.appendChild(birthday);
   card.appendChild(birthplace);
-  card.appendChild(portrait);
+  card.appendChild(imgContainer);
 
   console.log("appending");
 

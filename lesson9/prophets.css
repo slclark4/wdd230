@@ -1,5 +1,55 @@
+/* Colors:
+Pale Silver (border): #C0BCB5
+Medium Spring Green (heading): #5CFFB6
+White (text): #FFFFFF
+Chinese Violet (background): #715676  */
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: #715676;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #5cffb6;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+p {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+}
+
 .cards {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(auto-fit, minmax(341px, 1fr));
   grid-template-rows: auto;
+  justify-items: center;
+  align-content: center;
+}
+
+section {
+  background-color: #715676;
+  border: 3px solid #c0bcb5;
+  border-radius: 3px;
+  padding: 1em;
+  width: 325px;
+  text-align: center;
+  margin: 1em 5px;
+}
+
+section div {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+section img {
+  width: 100%;
 }
