@@ -1,0 +1,67 @@
+{
+  "businesses": [
+    {
+      "name": "Cleanup Services",
+      "address": "2057 E Aurora Rd, Twinsburg, OH 44087",
+      "phoneNumber": "8003172519",
+      "website": "https://cleanup.services",
+      "membershipLevel": ""
+    },
+    {
+      "name": "Allstate Insurance",
+      "address": "9224 Darrow Rd Ste W, Twinsburg, OH 44087",
+      "phoneNumber": "3304680800",
+      "website": "https://agents.allstate.com/kristen-medcalf-monroe-twinsburg-oh.html?cid=LDR-YP-CF-160615:MLP&Campaign=222230000015670",
+      "membershipLevel": ""
+    },
+    {
+      "name": "Stryker Green",
+      "address": "1240 Sharonbrook Dr, Twinsburg, OH 44087",
+      "phoneNumber": "3309639985",
+      "website": "https://www.strykergreen.com/",
+      "membershipLevel": ""
+    },
+    {
+      "name": "Rsv Hospitality Enterprises",
+      "address": "9840 Ravenna Rd Ste A, Twinsburg, OH 44087",
+      "phoneNumber": "3304251426",
+      "website": "",
+      "membershipLevel": ""
+    },
+    {
+      "name": "Luxury Consulting",
+      "address": "2095 Midway Dr, Twinsburg, OH 44087",
+      "phoneNumber": "3304860710",
+      "website": "",
+      "membershipLevel": ""
+    },
+    {
+      "name": "",
+      "address": "",
+      "phoneNumber": "",
+      "website": "",
+      "membershipLevel": ""
+    },
+    {
+      "name": "H&R Block",
+      "address": "9981 Vail Dr Ste B, Twinsburg, OH 44087",
+      "phoneNumber": "3304252238",
+      "website": "https://www.hrblock.com/local-tax-offices/ohio/twinsburg/9981-vail-dr/34223/?otppartnerid=9308&campaignid=pw_mcm_9308_9760",
+      "membershipLevel": ""
+    },
+    {
+      "name": "York Business Solutions",
+      "address": "8935 Darrow Rd Unit 230, Twinsburg, OH 44087",
+      "phoneNumber": "2162322255",
+      "website": "https://yorkbizsolutions.com/contact/",
+      "membershipLevel": ""
+    },
+    {
+      "name": "Marketing Motivators",
+      "address": "9337 Ravenna Rd, Twinsburg, OH 44087",
+      "phoneNumber": "3304056900",
+      "website": "http://marketingmotivators.com/",
+      "membershipLevel": ""
+    }
+  ]
+}
