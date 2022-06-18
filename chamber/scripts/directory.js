@@ -27,4 +27,6 @@ function displayBusinesses(business) {
   card.appendChild(address);
   card.appendChild(phone);
   card.appendChild(website);
+
+  document.querySelector("div.cards").appendChild(card);
 }
