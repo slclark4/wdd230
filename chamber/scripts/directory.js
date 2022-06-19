@@ -13,17 +13,22 @@ fetch(requestURL)
 
 function displayBusinesses(business) {
   let card = document.createElement("section");
-  let h4 = document.createElement("h4");
+  let h3 = document.createElement("h3");
   let address = document.createElement("p");
   let phone = document.createElement("p");
   let website = document.createElement("a");
 
-  h4.textContent = business.name;
+  h3.textContent = business.name;
   address.textContent = business.address;
   phone.textContent = business.phoneNumber;
   website.textContent = business.website;
+  website.setAttribute("href", business.website);
 
-  card.appendChild(h4);
+  if (business.website.toLowerCase() === "no website") {
+    website.removeAttribute("href");
+  }
+
+  card.appendChild(h3);
   card.appendChild(address);
   card.appendChild(phone);
   card.appendChild(website);

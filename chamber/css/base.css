@@ -429,19 +429,29 @@ p.weather-type {
   grid-gap: 5px;
   justify-items: center;
   align-content: center;
+  padding: 2em 0 4em;
 }
 
 .directory h1 {
   text-align: center;
 }
-.cards section {
+.directory .cards section {
   height: auto;
   text-align: center;
   min-width: 300px;
   max-width: 300px;
   inline-size: 290px;
   overflow-wrap: break-word;
-  /* margin: 0.5em auto; */
+  border-radius: 3px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.directory .cards section a {
+  color: #fff;
+}
+
+.directory .cards section a:hover {
+  color: #ffd485;
 }
 
 /* Footer Styles */
