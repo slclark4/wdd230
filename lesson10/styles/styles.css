@@ -1,0 +1,25 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #b57f50;
+}
+
+p,
+span {
+  color: #04151f;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+main {
+  background-color: #b4d2ba;
+  padding: 2em;
+  border-radius: 8px;
+  border: 3px solid #04151f;
+}
