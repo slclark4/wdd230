@@ -22,4 +22,4 @@ if (day === 1 || day === 2) {
 document.querySelector("#currentYear").textContent = currentYear;
 document.getElementById("lastModified").textContent = lastModified;
 document.getElementById("currentDate").textContent = today;
-document.getElementById("dateSubmitted").value = dateSubmitted;
+document.getElementById("dateSubmitted").setAttribute("value", dateSubmitted);
