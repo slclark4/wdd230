@@ -1,18 +1,18 @@
 let temp = document.getElementById("temp").textContent;
-let windSpeed = document.getElementById("windSpeed").textContent;
+let speedOfWind = document.getElementById("windSpeed").textContent;
 let windChill;
 
 temp = parseFloat(temp);
-windSpeed = parseFloat(windSpeed);
+speedOfWind = parseFloat(speedOfWind);
 
-if (temp <= 50 && windSpeed > 3) {
+if (temp <= 50 && speedOfWind > 3) {
   windChill =
     35.74 +
     0.615 * temp -
-    35.75 * Math.pow(windSpeed, 0.16) +
-    0.4275 * temp * Math.pow(windSpeed, 0.16);
+    35.75 * Math.pow(speedOfWind, 0.16) +
+    0.4275 * temp * Math.pow(speedOfWind, 0.16);
+  document.getElementById("windChill").textContent = Math.round(windChill);
 } else {
   windChill = "N/A";
+  document.getElementById("windChill").textContent = windChill;
 }
-
-document.getElementById("windChill").textContent = Math.round(windChill);
