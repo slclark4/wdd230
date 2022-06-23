@@ -4,7 +4,7 @@ const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption");
 
 const url =
-  "https://api.openweathermap.org/data/2.5/weather?id=524901&q=Fairbanks&units=imperial&appid=90c455cc6f86cf3c68ec853f22214662";
+  "https://api.openweathermap.org/data/2.5/weather?id=524901&q=Fairbanks&units=imperial&appid={API key}";
 
 // dotenv/config
 function displayResults(weatherData) {
