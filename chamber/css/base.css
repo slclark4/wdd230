@@ -454,6 +454,46 @@ p.weather-type {
   color: #ffd485;
 }
 
+.directory-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.directory-display div {
+  height: 50px;
+}
+
+.directory-display div img {
+  width: 24px;
+  height: 24px;
+  margin: 0.25em;
+  padding: 0.25em;
+}
+
+#grid-display:hover {
+  border: 2px solid #35382e;
+  transform: scale(1.05);
+}
+
+#list-display:hover {
+  border: 2px solid #35382e;
+  transform: scale(1.05);
+}
+
+#grid-display {
+  background-color: #ffd485;
+}
+
+#list-display {
+  background-color: transparent;
+  border: none;
+}
+
+.directory-list {
+  display: none;
+}
+
 /* Footer Styles */
 
 footer {
