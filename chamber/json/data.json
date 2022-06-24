@@ -5,56 +5,63 @@
       "address": "2057 E Aurora Rd, Twinsburg, OH 44087",
       "phoneNumber": "(800) 317-2519",
       "website": "https://cleanup.services",
-      "membershipLevel": ""
+      "membershipLevel": "gold"
     },
     {
       "name": "Allstate Insurance",
       "address": "9224 Darrow Rd Ste W, Twinsburg, OH 44087",
       "phoneNumber": "(330) 468-0800",
       "website": "https://agents.allstate.com/kristen-medcalf-monroe-twinsburg-oh.html?cid=LDR-YP-CF-160615:MLP&Campaign=222230000015670",
-      "membershipLevel": ""
+      "membershipLevel": "gold"
     },
     {
       "name": "Stryker Green",
       "address": "1240 Sharonbrook Dr, Twinsburg, OH 44087",
       "phoneNumber": "(330) 963-9985",
       "website": "https://www.strykergreen.com/",
-      "membershipLevel": ""
+      "membershipLevel": "silver"
     },
     {
       "name": "Rsv Hospitality Enterprises",
       "address": "9840 Ravenna Rd Ste A, Twinsburg, OH 44087",
       "phoneNumber": "(330) 425-1426",
       "website": "No website",
-      "membershipLevel": ""
+      "membershipLevel": "bronze"
     },
     {
       "name": "Luxury Consulting",
       "address": "2095 Midway Dr, Twinsburg, OH 44087",
       "phoneNumber": "(330) 486-0710",
       "website": "No website",
-      "membershipLevel": ""
+      "membershipLevel": "bronze"
     },
     {
       "name": "H&R Block",
       "address": "9981 Vail Dr Ste B, Twinsburg, OH 44087",
       "phoneNumber": "(330) 425-2238",
       "website": "https://www.hrblock.com/local-tax-offices/ohio/twinsburg/9981-vail-dr/34223/?otppartnerid=9308&campaignid=pw_mcm_9308_9760",
-      "membershipLevel": ""
+      "membershipLevel": "gold"
     },
     {
       "name": "York Business Solutions",
       "address": "8935 Darrow Rd Unit 230, Twinsburg, OH 44087",
       "phoneNumber": "(216) 232-2255",
       "website": "https://yorkbizsolutions.com/contact/",
-      "membershipLevel": ""
+      "membershipLevel": "silver"
     },
     {
       "name": "Marketing Motivators",
       "address": "9337 Ravenna Rd, Twinsburg, OH 44087",
       "phoneNumber": "(330) 405-6900",
       "website": "http://marketingmotivators.com/",
-      "membershipLevel": ""
+      "membershipLevel": "silver"
+    },
+    {
+      "name": "Glaeser, Inc.",
+      "address": "9263 Ravenna Rd. Suite A-1, Twinsburg OH 44087",
+      "phoneNumber": "(234) 678-9955",
+      "website": "https://business.twinsburgchamber.com/list/member/glaeser-inc-648",
+      "membershipLevel": "bronze"
     }
   ]
 }

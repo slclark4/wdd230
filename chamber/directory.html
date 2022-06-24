@@ -65,7 +65,20 @@
     </header>
     <main class="directory">
       <h1>Business Directory</h1>
+      <div class="directory-display">
+        <div>
+          <button type="button" id="grid-display">
+            <img src="images/grid.svg" alt="Display items as a grid" />
+          </button>
+        </div>
+        <div>
+          <button type="button" id="list-display">
+            <img src="images/list.svg" alt="Display items as a list" />
+          </button>
+        </div>
+      </div>
       <div class="cards"></div>
+      <div class="directory-list"></div>
     </main>
     <footer>
       <div class="footer-commerce-info">
@@ -101,6 +114,7 @@
     <!-- Scripts -->
     <script src="scripts/navMenu.js"></script>
     <script src="scripts/directory.js"></script>
+    <script src="scripts/directoryDisplay.js"></script>
     <script defer src="scripts/dates.js"></script>
     <script defer src="scripts/windChill.js"></script>
   </body>
