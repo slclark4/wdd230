@@ -4,7 +4,7 @@ const captionDesc = document.querySelector(".weather-type");
 let windSpeed = document.getElementById("windSpeed");
 
 const url =
-  "https://api.openweathermap.org/data/2.5/weather?id=524901&q=Twinsburg&units=imperial&appid={API key}";
+  "https://api.openweathermap.org/data/2.5/weather?id=524901&q=Twinsburg&units=imperial&appid=90c455cc6f86cf3c68ec853f22214662";
 
 // dotenv/config
 function displayResults(weatherData) {
