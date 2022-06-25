@@ -40,7 +40,8 @@ function displayCardBusinesses(business) {
 }
 
 function displayListBusinesses(business) {
-  let list = document.createElement("ul");
+  let list = document.getElementById("businessList");
+  let groupDiv = document.createElement("div");
   let li = document.createElement("li");
   let h3 = document.createElement("h3");
   let address = document.createElement("p");
@@ -58,9 +59,10 @@ function displayListBusinesses(business) {
   }
 
   li.appendChild(h3);
-  li.appendChild(address);
-  li.appendChild(phone);
-  li.appendChild(website);
+  groupDiv.appendChild(address);
+  groupDiv.appendChild(phone);
+  groupDiv.appendChild(website);
+  li.appendChild(groupDiv);
   list.appendChild(li);
 
   document.querySelector("div.directory-list").appendChild(list);
