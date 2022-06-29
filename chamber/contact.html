@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Info</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The contact info for the Twinsburg Chamber of Commerce."
+    />
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="banner">
+      <p>
+        Come and join us for the meet and greet on <b>Wednesday at 7:00pm</b>
+      </p>
+    </div>
+    <header>
+      <div class="header-flex-container">
+        <div>
+          <img
+            class="logo"
+            src="images/logo.webp"
+            alt="Twinsburg Chamber of Commerce Logo"
+          />
+
+          <p>
+            <strong>Twinsburg</strong><br />
+            Chamber of Commerce
+          </p>
+        </div>
+        <div class="media-nav">
+          <a href="#">
+            <img src="images/facebook.png" alt="Facebook Profile Link" />
+          </a>
+          <a href="#">
+            <img src="images/instagram.png" alt="Instagram Profile Link" />
+          </a>
+          <button id="menuButton">
+            <span id="symbol">&#9776;</span><span id="closeMenu">x</span>
+          </button>
+        </div>
+      </div>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discovery</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <p class="currentDate"><span id="currentDate"></span></p>
+    </header>
+    <main class="contact-page">
+      <h1>Contact Us</h1>
+      <div class="contact-body-container">
+        <form method="get" action="thankyou.html">
+          <fieldset>
+            <legend>Get in touch</legend>
+            <label
+              >First Name*: <input type="text" name="fname" required
+            /></label>
+            <label>Last Name: <input type="text" name="lname" /></label>
+            <label
+              >Email Address*:
+              <input
+                type="email"
+                name="email"
+                placeholder="me@example.com"
+                required
+            /></label>
+            <label>Phone Number: <input type="number" name="phone" /></label>
+            <label
+              >Question/Concern:
+              <textarea name="question" rows="4" columns="50"></textarea>
+            </label>
+            <input
+              type="submit"
+              name="submit"
+              id="contact-form"
+              value="Contact Us"
+            />
+          </fieldset>
+        </form>
+        <section class="contact-info">
+          <div class="contact-info-container">
+            <div>
+              <h2>Contact Info</h2>
+              <ul>
+                <li>
+                  <h4>Address</h4>
+                  <p>12345 Ravenna Rd, Twinsburg, OH 44087</p>
+                </li>
+                <li>
+                  <h4>Email Address</h4>
+                  <a href="mailto:info@twinsburgchamber.com"
+                    >info@twinsburgchamber.com</a
+                  >
+                </li>
+                <li>
+                  <h4>Phone Number</h4>
+                  <a href="tel:1234567890">(123) 456-7890</a>
+                </li>
+              </ul>
+              <h2>Office Hours</h2>
+              <ul>
+                <li>Monday: 8am - 5pm</li>
+                <li>Tuesday: 8am - 5pm</li>
+                <li>Wednesday: 8am - 5pm</li>
+                <li>Thursday: 8am - 5pm</li>
+                <li>Friday: 8am - 5pm</li>
+                <li>Saturday & Sunday: Closed</li>
+              </ul>
+            </div>
+            <div>
+              <h2>Board of Directors</h2>
+              <ul>
+                <li>
+                  <h4>George Washington</h4>
+                  <a href="mailto:gwashington@twinsburgchamber.com"
+                    >gwashington@twinsburgchamber.com</a
+                  >
+                </li>
+                <li>
+                  <h4>John Adams</h4>
+                  <a href="mailto:jadams@twinsburgchamber.com"
+                    >jadams@twinsburgchamber.com</a
+                  >
+                </li>
+                <li>
+                  <h4>Sarah Jackson</h4>
+                  <a href="mailto:sjackson@twinsburgchamber.com"
+                    >sjackson@twinsburgchamber.com</a
+                  >
+                </li>
+                <li>
+                  <h4>Martin Van Buren</h4>
+                  <a href="mailto:mvanburen@twinsburgchamber.com"
+                    >mvanburen@twinsburgchamber.com</a
+                  >
+                </li>
+                <li>
+                  <h4>Penelope Taylor</h4>
+                  <a href="mailto:ptaylor@twinsburgchamber.com"
+                    >ptaylor@twinsburgchamber.com</a
+                  >
+                </li>
+                <li>
+                  <h4>Martha Sullivan</h4>
+                  <a href="mailto:msullivan@twinsburgchamber.com"
+                    >msullivan@twinsburgchamber.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-commerce-info">
+        <div>
+          <img
+            src="images/logo.webp"
+            alt="Twinsburg Chamber of Commerce Logo"
+            width="100"
+            height="100"
+          />
+
+          <p>
+            <strong>Twinsburg Chamber of Commerce</strong><br />12345 Main St,
+            Twinsburg, Ohio 44087
+          </p>
+        </div>
+
+        <p class="contact-info">
+          info@chamberintwinsburg.com<br />+1 (330) 330-3300<br /><a href="#"
+            >Location Map</a
+          >
+          | <a href="https://openweathermap.org/" target="_blank">Weather</a>
+        </p>
+      </div>
+      <div class="footer-author-info">
+        <p>&copy; <span id="currentYear"></span> Twinsburg Chamber</p>
+        <p>Stephanie Clark</p>
+        <p>WDD 230 Project</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/navMenu.js"></script>
+    <script defer src="scripts/dates.js"></script>
+    <script defer src="scripts/windChill.js"></script>
+  </body>
+</html>

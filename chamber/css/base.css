@@ -46,7 +46,9 @@ header {
   padding: 0.5em;
 }
 
-.header-flex-container div {
+.header-flex-container div,
+.contact-info-container,
+.contact-body-container {
   display: flex;
   align-items: center;
 }
@@ -64,7 +66,8 @@ header p:nth-of-type(1) {
   justify-content: space-between;
 }
 
-.header-flex-container.open {
+.header-flex-container.open,
+.contact-info-container {
   align-items: flex-start;
 }
 
@@ -145,7 +148,8 @@ header p:nth-of-type(1) {
 /* Home Page - Main Styles */
 
 .spotlights,
-.cards section {
+.cards section,
+.contact-page .contact-info {
   background-color: #632b30;
   border: 2px solid rgba(0, 0, 0, 0.8);
   color: #fff;
@@ -213,6 +217,7 @@ header p:nth-of-type(1) {
   padding: 1em 0.5em;
 }
 
+h2,
 h3 {
   background-color: #ffd485;
   color: #35382e;
@@ -337,18 +342,21 @@ p.weather-type {
   margin: 1em auto 0;
 }
 
-.join .form {
+.join .form,
+.contact-page form {
   padding: 4vw;
   width: 90%;
   max-width: 625px;
   margin: 0 auto;
 }
 
-.join .form fieldset {
+.join .form fieldset,
+.contact-page fieldset {
   padding: 10px;
 }
 
-.join .form label {
+.join .form label,
+.contact-page label {
   display: block;
   font-size: 1em;
   padding: 10px 0;
@@ -356,7 +364,9 @@ p.weather-type {
 
 .join .form fieldset:nth-of-type(1) input,
 .join .form fieldset:nth-of-type(2) input,
-.join .form textarea {
+.join .form textarea,
+.contact-page input,
+.contact-page textarea {
   font-size: 1em;
   height: 2em;
   display: block;
@@ -365,11 +375,13 @@ p.weather-type {
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.join .form textarea {
+.join .form textarea,
+.contact-page textarea {
   height: 6em;
 }
 
-#join-form {
+#join-form,
+#contact-form {
   background-color: rgb(99, 43, 48);
   color: #fff;
   border: 1px #000 solid;
@@ -543,6 +555,58 @@ p.weather-type {
   word-break: break-word;
   color: #fff;
   margin: 0 0.5em;
+}
+
+/* Contact Page Styles */
+.contact-page form {
+  max-width: 500px;
+  padding-top: 0;
+}
+
+.contact-page .contact-info {
+  height: fit-content;
+  margin: 1em;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  text-align: center;
+}
+
+.contact-info a {
+  color: #fff;
+}
+
+.contact-info h2 {
+  margin-top: 1em;
+}
+
+#contact-form {
+  max-width: fit-content;
+}
+
+.contact-info-container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-info-container div:nth-of-type(1) {
+  padding-right: 1em;
+}
+
+.contact-info-container div:nth-of-type(2) {
+  padding-left: 1em;
+}
+
+.contact-page h1 {
+  text-align: center;
+}
+
+.contact-body-container {
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
 }
 
 /* Footer Styles */
