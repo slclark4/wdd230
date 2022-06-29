@@ -47,8 +47,7 @@ header {
 }
 
 .header-flex-container div,
-.contact-info-container,
-.contact-body-container {
+.contact-info-container {
   display: flex;
   align-items: center;
 }
@@ -332,7 +331,8 @@ p.weather-type {
 }
 
 /*  Join Page Styles */
-.join {
+.join,
+.contact-body-container {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
@@ -606,7 +606,6 @@ p.weather-type {
 .contact-body-container {
   justify-content: center;
   align-items: start;
-  flex-wrap: wrap;
 }
 
 /* Footer Styles */

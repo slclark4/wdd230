@@ -120,7 +120,8 @@
   }
 
   /* Join Page Styles */
-  .join {
+  .join,
+  .contact-body-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 75px 1fr;
   }
@@ -128,5 +129,10 @@
   .join h1 {
     grid-column: span 2;
     grid-row: 1;
+  }
+
+  /* Contact Page Styles */
+  .contact-body-container {
+    grid-template-rows: auto;
   }
 }
