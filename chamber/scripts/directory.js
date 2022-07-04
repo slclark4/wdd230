@@ -47,11 +47,13 @@ function displayListBusinesses(business) {
   let address = document.createElement("p");
   let phone = document.createElement("p");
   let website = document.createElement("a");
+  let membershipLevel = document.createElement("p");
 
   h2.textContent = business.name;
   address.textContent = business.address;
   phone.textContent = business.phoneNumber;
   website.textContent = business.website;
+  membershipLevel.textContent = business.membershipLevel;
   website.setAttribute("href", business.website);
   website.setAttribute("target", "_blank");
 
@@ -64,6 +66,7 @@ function displayListBusinesses(business) {
   groupDiv.appendChild(address);
   groupDiv.appendChild(phone);
   groupDiv.appendChild(website);
+  groupDiv.appendChild(membershipLevel);
   li.appendChild(groupDiv);
   list.appendChild(li);
 
