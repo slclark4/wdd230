@@ -53,9 +53,11 @@ function displayListBusinesses(business) {
   phone.textContent = business.phoneNumber;
   website.textContent = business.website;
   website.setAttribute("href", business.website);
+  website.setAttribute("target", "_blank");
 
   if (business.website.toLowerCase() === "no website") {
     website.removeAttribute("href");
+    website.removeAttribute("target");
   }
 
   li.appendChild(h2);

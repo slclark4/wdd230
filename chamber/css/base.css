@@ -601,6 +601,10 @@ h3.weather-type {
   padding-left: 1em;
 }
 
+.contact-info-container p {
+  margin: 0;
+}
+
 .contact-page h1 {
   text-align: center;
 }
@@ -608,6 +612,13 @@ h3.weather-type {
 .contact-body-container {
   justify-content: center;
   align-items: start;
+}
+
+.contact-page h3 {
+  background-color: transparent;
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 0;
 }
 
 /* Footer Styles */
