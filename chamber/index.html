@@ -8,8 +8,8 @@
       content="Stephanie's chamber of commerce website home page."
     />
     <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="https://fonts.googleapis.com" />
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
@@ -32,6 +32,8 @@
             class="logo"
             src="images/logo.webp"
             alt="Twinsburg Chamber of Commerce Logo"
+            width="60"
+            height="60"
           />
 
           <p>
@@ -41,10 +43,20 @@
         </div>
         <div class="media-nav">
           <a href="#">
-            <img src="images/facebook.png" alt="Facebook Profile Link" />
+            <img
+              src="images/facebook.png"
+              alt="Facebook Profile Link"
+              width="30"
+              height="30"
+            />
           </a>
           <a href="#">
-            <img src="images/instagram.png" alt="Instagram Profile Link" />
+            <img
+              src="images/instagram.png"
+              alt="Instagram Profile Link"
+              width="30"
+              height="30"
+            />
           </a>
           <button id="menuButton">
             <span id="symbol">&#9776;</span><span id="closeMenu">x</span>
@@ -73,37 +85,56 @@
           <source
             media="(min-width: 1200px)"
             srcset="images/hero-background-large.jpg"
+            sizes="1200"
+            width="1200"
           />
           <source
             media="(min-width: 992px)"
             srcset="images/hero-background-1200.jpg"
+            sizes="992"
+            width="992"
           />
           <source
             media="(min-width: 800px)"
             srcset="images/hero-background-1000.jpg"
+            sizes="800"
+            width="800"
           />
           <source
             srcset="images/hero-background-800.jpg"
             media="(min-width: 600px)"
+            sizes="600"
+            width="600"
           />
           <source
             media="(min-width: 400px)"
             srcset="images/hero-background-600.jpg"
+            sizes="400"
+            width="400"
           />
           <source
             media="(min-width: 200px)"
             srcset="images/hero-background-400.jpg"
+            sizes="200"
+            width="200"
           />
           <img
-            src="images/hero-background-2-800.jpg"
+            src="images/hero-background-800.jpg"
             alt="Pond scenery common in this part of Ohio"
+            sizes="800"
+            width="800"
           />
         </picture>
       </div>
       <div class="event-container">
-        <h3>County Fair</h3>
+        <h2>County Fair</h2>
         <picture>
-          <img src="images/ferris-wheel.svg" alt="Ferris Wheel at the fair" />
+          <img
+            src="images/ferris-wheel.svg"
+            alt="Ferris Wheel at the fair"
+            width="128"
+            height="128"
+          />
         </picture>
         <p>
           Ready for fair food? Ready for rides? It's coming to Twinsburg on June
@@ -111,10 +142,16 @@
         </p>
       </div>
       <div class="weather-container">
-        <h3>Weather</h3>
+        <h2>Weather</h2>
         <div class="temp-container">
           <picture>
-            <img src="" alt="Cloudy Day" id="weather-icon" />
+            <img
+              src="#"
+              alt="Cloudy Day"
+              id="weather-icon"
+              width="112"
+              height="112"
+            />
           </picture>
           <p><span id="temp"></span>°F</p>
         </div>
@@ -125,7 +162,7 @@
         </div>
       </div>
       <div class="news-release-container">
-        <h3>County Fair Contests!</h3>
+        <h2>County Fair Contests!</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -137,10 +174,15 @@
         </p>
       </div>
       <div class="join-container">
-        <h3>Join Today!</h3>
+        <h2>Join Today!</h2>
 
         <div class="join-img-container">
-          <img src="images/handshake.svg" alt="Handshake Icon" />
+          <img
+            src="images/handshake.svg"
+            alt="Handshake Icon"
+            width="96"
+            height="96"
+          />
         </div>
         <a href="#">Join Now</a>
         <p>
@@ -150,10 +192,10 @@
       </div>
       <ul class="spotlights">
         <li>
-          <h3>Animal Shelter Fundraiser</h3>
+          <h2>Animal Shelter Fundraiser</h2>
         </li>
-        <li><h3>Police Pizza Party</h3></li>
-        <li><h3>Support Our Local Athletes</h3></li>
+        <li><h2>Police Pizza Party</h2></li>
+        <li><h2>Support Our Local Athletes</h2></li>
       </ul>
     </main>
     <footer>
@@ -162,8 +204,8 @@
           <img
             src="images/logo.webp"
             alt="Twinsburg Chamber of Commerce Logo"
-            width="100px"
-            height="100px"
+            width="100"
+            height="100"
           />
 
           <p>
