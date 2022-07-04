@@ -16,12 +16,12 @@ function callFetch(displayType) {
 
 function displayCardBusinesses(business) {
   let card = document.createElement("section");
-  let h3 = document.createElement("h3");
+  let h2 = document.createElement("h2");
   let address = document.createElement("p");
   let phone = document.createElement("p");
   let website = document.createElement("a");
 
-  h3.textContent = business.name;
+  h2.textContent = business.name;
   address.textContent = business.address;
   phone.textContent = business.phoneNumber;
   website.textContent = business.website;
@@ -31,7 +31,7 @@ function displayCardBusinesses(business) {
     website.removeAttribute("href");
   }
 
-  card.appendChild(h3);
+  card.appendChild(h2);
   card.appendChild(address);
   card.appendChild(phone);
   card.appendChild(website);
@@ -43,12 +43,12 @@ function displayListBusinesses(business) {
   let list = document.getElementById("businessList");
   let groupDiv = document.createElement("div");
   let li = document.createElement("li");
-  let h3 = document.createElement("h3");
+  let h2 = document.createElement("h2");
   let address = document.createElement("p");
   let phone = document.createElement("p");
   let website = document.createElement("a");
 
-  h3.textContent = business.name;
+  h2.textContent = business.name;
   address.textContent = business.address;
   phone.textContent = business.phoneNumber;
   website.textContent = business.website;
@@ -58,7 +58,7 @@ function displayListBusinesses(business) {
     website.removeAttribute("href");
   }
 
-  li.appendChild(h3);
+  li.appendChild(h2);
   groupDiv.appendChild(address);
   groupDiv.appendChild(phone);
   groupDiv.appendChild(website);
