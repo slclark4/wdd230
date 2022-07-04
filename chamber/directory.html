@@ -8,8 +8,8 @@
       content="Stephanie's chamber of commerce website home page."
     />
     <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="https://fonts.googleapis.com" />
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
@@ -32,6 +32,8 @@
             class="logo"
             src="images/logo.webp"
             alt="Twinsburg Chamber of Commerce Logo"
+            width="60"
+            height="60"
           />
 
           <p>
@@ -40,11 +42,21 @@
           </p>
         </div>
         <div class="media-nav">
-          <a href="#">
-            <img src="images/facebook.png" alt="Facebook Profile Link" />
+          <a href="https://www.facebook.com/">
+            <img
+              src="images/facebook.png"
+              alt="Facebook Profile Link"
+              width="30"
+              height="30"
+            />
           </a>
-          <a href="#">
-            <img src="images/instagram.png" alt="Instagram Profile Link" />
+          <a href="https://www.instagram.com/">
+            <img
+              src="images/instagram.png"
+              alt="Instagram Profile Link"
+              width="30"
+              height="30"
+            />
           </a>
           <button id="menuButton">
             <span id="symbol">&#9776;</span><span id="closeMenu">x</span>
@@ -68,12 +80,22 @@
       <div class="directory-display">
         <div>
           <button type="button" id="grid-display">
-            <img src="images/grid.svg" alt="Display items as a grid" />
+            <img
+              src="images/grid.svg"
+              alt="Display items as a grid"
+              width="30"
+              height="30"
+            />
           </button>
         </div>
         <div>
           <button type="button" id="list-display">
-            <img src="images/list.svg" alt="Display items as a list" />
+            <img
+              src="images/list.svg"
+              alt="Display items as a list"
+              width="30"
+              height="30"
+            />
           </button>
         </div>
       </div>
