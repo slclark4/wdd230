@@ -13,7 +13,6 @@ function callFetch(displayType) {
       businesses.forEach(displayType);
     });
 }
-
 function displayCardBusinesses(business) {
   let card = document.createElement("section");
   let h2 = document.createElement("h2");

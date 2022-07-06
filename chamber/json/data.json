@@ -7,8 +7,8 @@
       "website": "https://cleanup.services",
       "membershipLevel": "gold",
       "event": {
-        "title": "",
-        "description": ""
+        "title": "Cleanup Services",
+        "description": "We Clean Up!"
       }
     },
     {
@@ -18,8 +18,8 @@
       "website": "https://agents.allstate.com/kristen-medcalf-monroe-twinsburg-oh.html?cid=LDR-YP-CF-160615:MLP&Campaign=222230000015670",
       "membershipLevel": "gold",
       "event": {
-        "title": "",
-        "description": ""
+        "title": "All-STAR Insurance",
+        "description": "The best insurance for your peace of mind"
       }
     },
     {
@@ -29,8 +29,8 @@
       "website": "https://www.strykergreen.com/",
       "membershipLevel": "silver",
       "event": {
-        "title": "",
-        "description": ""
+        "title": "Stryke Gold!",
+        "description": "Stryke Gold at Stryker Green"
       }
     },
     {
@@ -38,22 +38,14 @@
       "address": "9840 Ravenna Rd Ste A, Twinsburg, OH 44087",
       "phoneNumber": "(330) 425-1426",
       "website": "No website",
-      "membershipLevel": "bronze",
-      "event": {
-        "title": "",
-        "description": ""
-      }
+      "membershipLevel": "bronze"
     },
     {
       "name": "Luxury Consulting",
       "address": "2095 Midway Dr, Twinsburg, OH 44087",
       "phoneNumber": "(330) 486-0710",
       "website": "No website",
-      "membershipLevel": "bronze",
-      "event": {
-        "title": "",
-        "description": ""
-      }
+      "membershipLevel": "bronze"
     },
     {
       "name": "H&R Block",
@@ -62,8 +54,8 @@
       "website": "https://www.hrblock.com/local-tax-offices/ohio/twinsburg/9981-vail-dr/34223/?otppartnerid=9308&campaignid=pw_mcm_9308_9760",
       "membershipLevel": "gold",
       "event": {
-        "title": "",
-        "description": ""
+        "title": "H&R Block",
+        "description": "Get the Consulting you need!"
       }
     },
     {
@@ -73,8 +65,8 @@
       "website": "https://yorkbizsolutions.com/contact/",
       "membershipLevel": "silver",
       "event": {
-        "title": "",
-        "description": ""
+        "title": "YOUR Business Solutions",
+        "description": "Solutions for YOU"
       }
     },
     {
@@ -84,8 +76,8 @@
       "website": "http://marketingmotivators.com/",
       "membershipLevel": "silver",
       "event": {
-        "title": "",
-        "description": ""
+        "title": "M&M",
+        "description": "Marketing Made Motivating"
       }
     },
     {
@@ -93,11 +85,7 @@
       "address": "9263 Ravenna Rd. Suite A-1, Twinsburg OH 44087",
       "phoneNumber": "(234) 678-9955",
       "website": "https://business.twinsburgchamber.com/list/member/glaeser-inc-648",
-      "membershipLevel": "bronze",
-      "event": {
-        "title": "",
-        "description": ""
-      }
+      "membershipLevel": "bronze"
     }
   ]
 }
