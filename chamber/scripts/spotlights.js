@@ -1,7 +1,9 @@
+const requestURL = "https://slclark4.github.io/wdd230/chamber/json/data.json";
 const spotlightList = document.querySelector(".spotlights");
+const qualifyingMemberships = [];
 
 function randomDisplay() {
-  return Math.floor(Math.random() * 9);
+  return Math.floor(Math.random() * 6);
 }
 
 function callFetch(displayType) {
@@ -17,28 +19,28 @@ function callFetch(displayType) {
 }
 
 function gatherSpotlights(spotlight) {
-  const qualifyingMemberships = {};
   if (
     spotlight.membershipLevel === "gold" ||
     spotlight.membershipLevel === "silver"
   ) {
-    qualifyingMemberships.append(spotlight);
+    qualifyingMemberships.push(spotlight);
   }
-
-  displaySpotlights(qualifyingMemberships);
 }
 
 function displaySpotlights(spotlights) {
-  const chosenSpotlights = {};
-  for (i === 0; i < 4; i++) {
+  const chosenSpotlights = [];
+  for (let i = 0; i < 4; i++) {
     const x = randomDisplay();
-    chosenSpotlights.append(spotlights[x]);
+    chosenSpotlights.push(spotlights[x]);
   }
 
-  for (item in chosenSpotlights) {
+  chosenSpotlights.forEach((item) => {
+    console.log("Made it to last loop");
     const li = document.createElement("li");
     const h3 = document.createElement("h3");
     const p = document.createElement("p");
+
+    console.log("Item: ", item);
 
     h3.textContent = item.event.title;
     p.textContent = item.event.description;
@@ -47,7 +49,8 @@ function displaySpotlights(spotlights) {
     li.appendChild(p);
 
     spotlightList.appendChild(li);
-  }
+  });
 }
 
 callFetch(gatherSpotlights);
+displaySpotlights(qualifyingMemberships);
