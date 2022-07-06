@@ -273,13 +273,30 @@ h3.weather-type {
 
 .spotlights li {
   max-width: 90vw;
-  height: 150px;
   border: 1px solid rgba(0, 0, 0, 0.8);
   margin: 5px 0;
   padding: 0.5em;
+  text-align: center;
+  height: auto;
 }
 
-.spotlights li:nth-of-type(3) {
+.spotlights li p {
+  font-size: 1.15em;
+  font-style: italic;
+}
+
+.spotlights li div {
+  border-top: solid 1px #ffd485;
+  padding: 0.5em 0;
+}
+
+.spotlights li a {
+  display: block;
+  margin: 0.25em 0;
+}
+
+.spotlights li:nth-of-type(3),
+.spotlights li:nth-of-type(4) {
   display: none;
 }
 

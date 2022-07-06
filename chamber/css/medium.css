@@ -39,7 +39,10 @@
   }
 
   .spotlights li {
+    padding: 1em 0.5em;
     width: 250px;
+    min-height: 150px;
+    margin: auto 0;
   }
 
   .join-container {
