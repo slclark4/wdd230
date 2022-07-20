@@ -97,6 +97,12 @@
     font-size: 1.25em;
   }
 
+  /* -------------------- Services Page Styles -------------------- */
+  .services section {
+    max-width: 40vw;
+    margin: 1em auto;
+  }
+
   /* -------------------- Footer Styles -------------------- */
   footer {
     flex-direction: row;

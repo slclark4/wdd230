@@ -297,8 +297,8 @@ form textarea {
 
 /* -------------------- Services Page Styles -------------------- */
 .services section {
-  max-width: 45vw;
-  margin: 1em auto;
+  max-width: 75vw;
+  margin: 1em;
   padding: 1em;
   border-left: 2px solid var(--main);
 }
