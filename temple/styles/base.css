@@ -215,6 +215,7 @@ footer a {
 
 form {
   max-width: 75vw;
+  width: fit-content;
   margin: 0 auto;
   text-align: left;
   border: 2px solid var(--accent);
@@ -245,6 +246,12 @@ legend label {
 form label input {
   font-size: 1.1em;
   height: 1.5em;
+  display: block;
+}
+
+.reservations form div {
+  max-width: 70vw;
+  flex-wrap: wrap;
 }
 
 .reservations form div:nth-of-type(3) {
@@ -261,6 +268,10 @@ form label input {
 form div div {
   border: none;
   padding: 0 1em;
+}
+
+form textarea {
+  max-width: 70vw;
 }
 
 /* -------------------- Thank You Page Styles -------------------- */
