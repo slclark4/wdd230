@@ -44,7 +44,8 @@ footer section:nth-of-type(4) ul,
 .reservations form div,
 .reservations form legend,
 .reservations form div div,
-.reservations legend label {
+.reservations legend label,
+.services {
   display: flex;
 }
 
@@ -105,7 +106,8 @@ button,
 
 #navMenu ul,
 footer ul,
-.main-hero ul {
+.main-hero ul,
+.services section ul {
   list-style: none;
   text-align: center;
   padding: 1em 0;
@@ -115,7 +117,8 @@ footer ul,
 
 #navMenu li,
 footer li,
-.main-hero li {
+.main-hero li,
+.services section li {
   padding: 0.5em;
 }
 
@@ -290,6 +293,42 @@ form textarea {
   max-width: 50vw;
   font-size: 1.2em;
   margin: 0 auto;
+}
+
+/* -------------------- Services Page Styles -------------------- */
+.services section {
+  max-width: 45vw;
+  margin: 1em auto;
+  padding: 1em;
+  border-left: 2px solid var(--main);
+}
+
+.services section a {
+  color: var(--main);
+  text-decoration: none;
+}
+
+.services section a:hover {
+  text-decoration: underline;
+}
+
+.services section:nth-of-type(3) {
+  border-top: 2px solid var(--accent);
+}
+
+.services section ul {
+  background-color: transparent;
+  text-align: left;
+  border-top: 2px solid var(--accent);
+}
+
+.services {
+  flex-wrap: wrap;
+}
+
+.services h2,
+.services h3 {
+  color: var(--main);
 }
 
 /* -------------------- Footer Styles -------------------- */
