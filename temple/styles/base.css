@@ -21,7 +21,9 @@ span,
 p,
 ul,
 ol,
-a {
+a,
+label,
+legend {
   font-family: var(--paragraph-font), sans-serif;
 }
 
@@ -37,8 +39,36 @@ header,
 footer,
 footer section:nth-of-type(4) ul,
 .weather,
-.weather-item div:nth-of-type(2) {
+.weather-item div:nth-of-type(2),
+.temple section,
+.reservations form div,
+.reservations form legend,
+.reservations form div div,
+.reservations legend label {
   display: flex;
+}
+
+header,
+footer,
+.reservations form div div,
+.reservations form legend {
+  flex-direction: column;
+}
+
+#closeMenu,
+#menuButton.open #symbol,
+#bookButton,
+#navMenu {
+  display: none;
+}
+
+#menuButton.open #closeMenu,
+#navMenu.open,
+#bookButton.open,
+#navMenu a,
+.reservations form div:nth-of-type(3) textarea,
+#reservation-form {
+  display: block;
 }
 
 .logo-container {
@@ -54,12 +84,8 @@ header h1 {
   font-size: 1em;
 }
 
-header,
-footer {
-  flex-direction: column;
-}
-
-button {
+button,
+#reservation-form {
   background-color: var(--main);
   color: var(--white);
   padding: 0.3em;
@@ -73,20 +99,6 @@ button {
   background: transparent;
   grid-column: 3;
   font-size: 2em;
-}
-
-#closeMenu,
-#menuButton.open #symbol,
-#bookButton,
-#navMenu {
-  display: none;
-}
-
-#menuButton.open #closeMenu,
-#navMenu.open,
-#bookButton.open,
-#navMenu a {
-  display: block;
 }
 
 /* -------------------- UL Style -------------------- */
@@ -126,7 +138,8 @@ footer a {
 
 /* -------------------- Button Hover -------------------- */
 #bookButton:hover,
-.main-hero button:hover {
+.main-hero button:hover,
+#reservation-form:hover {
   background-color: #d66f89;
 }
 
@@ -181,6 +194,91 @@ footer a {
 
 .weather-item div:nth-of-type(2) span {
   padding: 0 0.5em;
+}
+
+/* -------------------- Temple Page Styles -------------------- */
+.temple {
+  text-align: center;
+}
+
+.temple-card {
+  /* width: 45em; */
+  max-height: 300px;
+  overflow: hidden;
+}
+
+/* -------------------- Reservation Page Styles -------------------- */
+.reservations {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+form {
+  max-width: 75vw;
+  margin: 0 auto;
+  text-align: left;
+  border: 2px solid var(--accent);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+form div {
+  margin: 1em 0 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 3px dotted var(--main);
+}
+
+form label {
+  display: inline-block;
+  margin: 0.4em;
+}
+
+form legend {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+legend label {
+  align-items: center;
+}
+
+form label input {
+  font-size: 1.1em;
+  height: 1.5em;
+}
+
+.reservations form div:nth-of-type(3) {
+  margin-top: 1em;
+}
+
+#reservation-form {
+  font-size: 1.1em;
+  padding: 0.25em;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+form div div {
+  border: none;
+  padding: 0 1em;
+}
+
+/* -------------------- Thank You Page Styles -------------------- */
+.thank-you {
+  text-align: center;
+  padding-bottom: 2em;
+  border-top: 5px solid var(--black);
+}
+
+.thank-you h2 {
+  font-size: 4em;
+  color: var(--main);
+}
+
+.thank-you p {
+  max-width: 50vw;
+  font-size: 1.2em;
+  margin: 0 auto;
 }
 
 /* -------------------- Footer Styles -------------------- */
