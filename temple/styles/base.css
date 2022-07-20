@@ -131,6 +131,10 @@ footer a {
 }
 
 /* -------------------- Home Page Styles -------------------- */
+.home picture {
+  max-width: 90vw;
+}
+
 .main-hero {
   background-color: var(--accent);
   color: var(--black);
@@ -142,7 +146,8 @@ footer a {
   max-width: 80vw;
 }
 
-.main-hero img {
+.main-hero img,
+.home img {
   width: 100%;
 }
 
