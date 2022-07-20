@@ -18,6 +18,7 @@ function callFetch() {
 
 function displayTemples(data, city) {
   const cityObject = data[city];
+  const name = cityObject.name;
   const phoneNumber = cityObject.phone;
   const address = cityObject.address;
   const email = cityObject.email;
@@ -30,7 +31,9 @@ function displayTemples(data, city) {
   document.getElementById(`${city}-phone`).textContent = phoneNumber;
   document.getElementById(`${city}-email`).textContent = email;
   document.getElementById(`${city}-address`).textContent = address;
-  document.getElementById(`${city}-img`).textContent = img;
+  document.getElementById(`${city}-img`).setAttribute("src", img);
+  document.getElementById(`${city}-img`).setAttribute("alt", name);
+
   const servicesList = document.getElementById(`${city}-services`);
   const ordinancesList = document.getElementById(`${city}-ordinances`);
   const sessionsList = document.getElementById(`${city}-sessions`);
@@ -55,6 +58,14 @@ function displayTemples(data, city) {
     const baptisms = document.createElement("ul");
     const initiatories = document.createElement("ul");
     const sealings = document.createElement("ul");
+
+    const baptismTitle = document.createElement("h4");
+    const initiatoryTitle = document.createElement("h4");
+    const sealingTitle = document.createElement("h4");
+
+    baptisms.appendChild(baptismTitle);
+    initiatories.appendChild(initiatoryTitle);
+    sealings.appendChild(sealingTitle);
 
     ordinances["baptisms"].forEach((service) => {
       const li = document.createElement("li");

@@ -50,7 +50,12 @@ footer section:nth-of-type(4) ul,
 .extended-stay section div ul,
 .extended-stay .form-inputs,
 .reception .form-inputs,
-.reception section {
+.reception section,
+#columbus-ordinances,
+#palmyra-ordinances,
+#nauvoo-ordinances,
+#baton-rouge-ordinances,
+.temple-card .schedules {
   display: flex;
 }
 
@@ -191,7 +196,12 @@ footer a {
 
 .weather,
 .reception section,
-.temple section {
+.temple section,
+#columbus-ordinances,
+#palmyra-ordinances,
+#nauvoo-ordinances,
+#baton-rouge-ordinances,
+.temple-card .schedules {
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -245,6 +255,29 @@ footer a {
   position: absolute;
   bottom: 5px;
   right: 5px;
+}
+
+#columbus-ordinances,
+#palmyra-ordinances,
+#nauvoo-ordinances,
+#baton-rouge-ordinances {
+  margin: 1em;
+}
+
+.temple-card .schedules {
+  justify-content: space-evenly;
+}
+
+.temple-card label {
+  display: block;
+}
+
+.temple-card picture {
+  max-width: 100px;
+}
+
+.temple-card img {
+  width: 100%;
 }
 
 /* -------------------- Reservation Page Styles -------------------- */
