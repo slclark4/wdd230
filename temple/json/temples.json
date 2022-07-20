@@ -1,0 +1,218 @@
+{
+  "temples": [
+    {
+      "name": "Columbus, Ohio",
+      "phone": "N/A",
+      "address": "3870 Gateway Blvd, Columbus, OH 43228-9747 United States",
+      "email": "N/A",
+      "img": "https://assets.ldscdn.org/06/86/0686bff214918f0cb079dae08bdde345a495637a/temple_exterior_columbus_ohio.jpeg",
+      "services": "N/A",
+      "ordinanceSchedule": "N/A",
+      "sessionSchedule": "N/A",
+      "templeClosureSchedule": "Currently Closed for Renovations"
+    },
+    {
+      "name": "Palmyra, New York",
+      "phone": "(1) 315-597-6001",
+      "address": "2720 Temple Rd, Palmyra, NY 14522-9573 United States",
+      "email": "PALMY-OFF@churchofjesuschrist.org",
+      "img": "https://assets.ldscdn.org/9d/9c/9d9c9ffdc4eb23b5699d3d65b180638771103c1d/palmyra_temple_lds.jpeg",
+      "services": [
+        "No clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "ordinanceSchedule": {
+        "baptisms": ["6:30AM", "7:30AM", "8:30AM"],
+        "initiatories": [
+          "7AM",
+          "8AM",
+          "9AM",
+          "10AM",
+          "11AM",
+          "12PM",
+          "1PM",
+          "2PM",
+          "3PM",
+          "4PM",
+          "5PM",
+          "6PM",
+          "7PM"
+        ],
+        "sealings": [
+          "7AM",
+          "8AM",
+          "9AM",
+          "10AM",
+          "11AM",
+          "12PM",
+          "1PM",
+          "2PM",
+          "3PM",
+          "4PM",
+          "5PM",
+          "6PM",
+          "7PM"
+        ]
+      },
+      "sessionSchedule": [
+        "7AM",
+        "8AM",
+        "9AM",
+        "10AM",
+        "11AM",
+        "12PM",
+        "1PM",
+        "2PM",
+        "3PM",
+        "4PM",
+        "5PM",
+        "6PM",
+        "7PM"
+      ],
+      "templeClosureSchedule": [
+        "Monday, 12 September 2022 - Monday, 26 September 2022",
+        "Saturday, 1 October 2022",
+        "Thursday, 24 November 2022",
+        "Saturday, 24 December 2022",
+        "Saturday, 31 December 2022"
+      ]
+    },
+    {
+      "name": "Nauvoo, Illinois",
+      "phone": "(1) 217-453-6252",
+      "address": "50 N Wells St, Nauvoo, IL 62354 United States",
+      "email": "NAUV2-OFF@churchofjesuschrist.org",
+      "img": "https://assets.ldscdn.org/23/f0/23f0e1912a8bb92fbcb0675a6847c135070ba2fd/nauvoo_temple_lds.jpg",
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "Patron housing available",
+        "No distribution center nearby"
+      ],
+      "ordinanceSchedule": {
+        "baptisms": ["6:30AM", "7:30AM", "8:30AM"],
+        "initiatories": [
+          "7AM",
+          "8AM",
+          "9AM",
+          "10AM",
+          "11AM",
+          "12PM",
+          "1PM",
+          "2PM",
+          "3PM",
+          "4PM",
+          "5PM",
+          "6PM",
+          "7PM"
+        ],
+        "sealings": [
+          "7AM",
+          "8AM",
+          "9AM",
+          "10AM",
+          "11AM",
+          "12PM",
+          "1PM",
+          "2PM",
+          "3PM",
+          "4PM",
+          "5PM",
+          "6PM",
+          "7PM"
+        ]
+      },
+      "sessionSchedule": [
+        "7AM",
+        "8AM",
+        "9AM",
+        "10AM",
+        "11AM",
+        "12PM",
+        "1PM",
+        "2PM",
+        "3PM",
+        "4PM",
+        "5PM",
+        "6PM",
+        "7PM"
+      ],
+      "templeClosureSchedule": [
+        "Monday, 26 September 2022 - Monday, 24 October 2022",
+        "Thursday, 24 November 2022",
+        "Saturday, 24 December 2022",
+        "Saturday, 31 December 2022"
+      ]
+    },
+    {
+      "name": "Baton Rouge, Louisiana",
+      "phone": "(1) 225-769-1197",
+      "address": "10339 Highland Rd, Baton Rouge, LA 70810 United States",
+      "email": "BROUG-OFF@churchofjesuschrist.org",
+      "img": "https://assets.ldscdn.org/e9/9a/e99afe20470f01ee42a4582a6d3544d2aa6bbfc2/baton_rouge_louisiana_temple.jpeg",
+      "services": [
+        "No clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "No distribution center nearby"
+      ],
+      "ordinanceSchedule": {
+        "baptisms": ["6:30AM", "7:30AM", "8:30AM"],
+        "initiatories": [
+          "7AM",
+          "8AM",
+          "9AM",
+          "10AM",
+          "11AM",
+          "12PM",
+          "1PM",
+          "2PM",
+          "3PM",
+          "4PM",
+          "5PM",
+          "6PM",
+          "7PM"
+        ],
+        "sealings": [
+          "7AM",
+          "8AM",
+          "9AM",
+          "10AM",
+          "11AM",
+          "12PM",
+          "1PM",
+          "2PM",
+          "3PM",
+          "4PM",
+          "5PM",
+          "6PM",
+          "7PM"
+        ]
+      },
+      "sessionSchedule": [
+        "7AM",
+        "8AM",
+        "9AM",
+        "10AM",
+        "11AM",
+        "12PM",
+        "1PM",
+        "2PM",
+        "3PM",
+        "4PM",
+        "5PM",
+        "6PM",
+        "7PM"
+      ],
+      "templeClosureSchedule": [
+        "Saturday, 1 October 2022",
+        "Monday, 31 October 2022 - Monday, 14 November 2022",
+        "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+        "Saturday, 24 December 2022 - Monday, 26 December 2022",
+        "Saturday, 31 December 2022 - Monday, 2 January 2023"
+      ]
+    }
+  ]
+}
