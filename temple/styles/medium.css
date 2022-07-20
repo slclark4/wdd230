@@ -133,7 +133,7 @@
     margin-bottom: 0.6em;
   }
 
-  small {
+  footer small {
     position: absolute;
     bottom: 10px;
     left: var(--copyrightPosition);

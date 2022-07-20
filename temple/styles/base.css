@@ -45,7 +45,11 @@ footer section:nth-of-type(4) ul,
 .reservations form legend,
 .reservations form div div,
 .reservations legend label,
-.services {
+.services,
+.extended-stay section:nth-of-type(1),
+.extended-stay section div ul,
+.extended-stay .form-inputs,
+.reception section {
   display: flex;
 }
 
@@ -86,7 +90,8 @@ header h1 {
 }
 
 button,
-#reservation-form {
+#reservation-form,
+#contact-us-form {
   background-color: var(--main);
   color: var(--white);
   padding: 0.3em;
@@ -107,7 +112,9 @@ button,
 #navMenu ul,
 footer ul,
 .main-hero ul,
-.services section ul {
+.services section ul,
+.extended-stay section div ul,
+.business-card ul {
   list-style: none;
   text-align: center;
   padding: 1em 0;
@@ -118,7 +125,9 @@ footer ul,
 #navMenu li,
 footer li,
 .main-hero li,
-.services section li {
+.services section li,
+.extended-stay section div li,
+.business-card li {
   padding: 0.5em;
 }
 
@@ -142,7 +151,8 @@ footer a {
 /* -------------------- Button Hover -------------------- */
 #bookButton:hover,
 .main-hero button:hover,
-#reservation-form:hover {
+#reservation-form:hover,
+#contact-us-form:hover {
   background-color: #d66f89;
 }
 
@@ -176,7 +186,8 @@ footer a {
   max-width: 200px;
 }
 
-.weather {
+.weather,
+.reception section {
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -216,7 +227,7 @@ footer a {
   padding-bottom: 2em;
 }
 
-form {
+.reservations form {
   max-width: 75vw;
   width: fit-content;
   margin: 0 auto;
@@ -226,27 +237,28 @@ form {
   border-radius: 6px;
 }
 
-form div {
+.reservations form div {
   margin: 1em 0 1.5em;
   padding-bottom: 1em;
   border-bottom: 3px dotted var(--main);
 }
 
-form label {
+.reservations form label {
   display: inline-block;
   margin: 0.4em;
 }
 
-form legend {
+.reservations form legend {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-legend label {
+.reservations legend label {
   align-items: center;
 }
 
-form label input {
+.reservations form label input,
+.extended-stay .form-inputs input {
   font-size: 1.1em;
   height: 1.5em;
   display: block;
@@ -268,12 +280,12 @@ form label input {
   margin: 0 auto;
 }
 
-form div div {
+.reservations form div div {
   border: none;
   padding: 0 1em;
 }
 
-form textarea {
+.reservations form textarea {
   max-width: 70vw;
 }
 
@@ -327,8 +339,101 @@ form textarea {
 }
 
 .services h2,
-.services h3 {
+.services h3,
+.extended-stay h2 {
   color: var(--main);
+}
+
+/* -------------------- Extended Stay Page Styles -------------------- */
+.extended-stay {
+  text-align: center;
+}
+
+.extended-stay section {
+  flex-wrap: wrap;
+}
+
+.extended-stay section div {
+  min-width: 40vw;
+  max-width: 40vw;
+  border: 2px solid var(--main);
+  margin: 1em auto;
+}
+
+.extended-stay section div ul {
+  text-align: left;
+  background-color: transparent;
+}
+
+.extended-stay section div ul ul.amenities {
+  border: 2px solid var(--accent);
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.extended-stay form {
+  max-width: 50vw;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.extended-stay .form-inputs div {
+  max-width: fit-content;
+  min-width: fit-content;
+}
+
+.extended-stay .form-inputs div,
+.extended-stay .form-inputs {
+  border: none;
+}
+
+.extended-stay textarea {
+  display: block;
+  width: 100%;
+}
+
+#contact-us-form {
+  margin: 1em auto 0;
+  display: block;
+  font-size: 1.3em;
+}
+
+.extended-stay section:nth-of-type(2) {
+  margin-top: 2em;
+}
+
+/* -------------------- Reception Page Styles -------------------- */
+.reception {
+  text-align: center;
+}
+
+.reception h2 {
+  font-size: 2em;
+}
+
+.reception h3 {
+  font-size: 1.6em;
+  margin-top: 2em;
+}
+.reception .business-card {
+  border: 2px solid var(--accent);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 0.75em;
+}
+
+.reception section {
+  margin: 0 auto;
+}
+
+.business-card ul {
+  background-color: transparent;
+  text-align: left;
+}
+
+.business-card h4 {
+  color: var(--main);
+  font-size: 1.3em;
 }
 
 /* -------------------- Footer Styles -------------------- */
