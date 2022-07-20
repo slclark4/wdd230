@@ -1,6 +1,6 @@
 {
-  "temples": [
-    {
+  "temples": {
+    "columbus": {
       "name": "Columbus, Ohio",
       "phone": "N/A",
       "address": "3870 Gateway Blvd, Columbus, OH 43228-9747 United States",
@@ -11,7 +11,7 @@
       "sessionSchedule": "N/A",
       "templeClosureSchedule": "Currently Closed for Renovations"
     },
-    {
+    "palmyra": {
       "name": "Palmyra, New York",
       "phone": "(1) 315-597-6001",
       "address": "2720 Temple Rd, Palmyra, NY 14522-9573 United States",
@@ -79,7 +79,7 @@
         "Saturday, 31 December 2022"
       ]
     },
-    {
+    "nauvoo": {
       "name": "Nauvoo, Illinois",
       "phone": "(1) 217-453-6252",
       "address": "50 N Wells St, Nauvoo, IL 62354 United States",
@@ -146,7 +146,7 @@
         "Saturday, 31 December 2022"
       ]
     },
-    {
+    "baton-rouge": {
       "name": "Baton Rouge, Louisiana",
       "phone": "(1) 225-769-1197",
       "address": "10339 Highland Rd, Baton Rouge, LA 70810 United States",
@@ -214,5 +214,5 @@
         "Saturday, 31 December 2022 - Monday, 2 January 2023"
       ]
     }
-  ]
+  }
 }
