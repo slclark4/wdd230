@@ -18,7 +18,6 @@ function callFetch() {
 
 function displayTemples(data, city) {
   const cityObject = data[city];
-  console.log(cityObject);
   const phoneNumber = cityObject.phone;
   const address = cityObject.address;
   const email = cityObject.email;
@@ -28,14 +27,78 @@ function displayTemples(data, city) {
   const sessions = cityObject.sessionSchedule;
   const closures = cityObject.templeClosureSchedule;
 
-  document.getElementById(`${city}-phone`).textContent;
-  document.getElementById(`${city}-email`).textContent;
-  document.getElementById(`${city}-address`).textContent;
-  document.getElementById(`${city}-img`).textContent;
+  document.getElementById(`${city}-phone`).textContent = phoneNumber;
+  document.getElementById(`${city}-email`).textContent = email;
+  document.getElementById(`${city}-address`).textContent = address;
+  document.getElementById(`${city}-img`).textContent = img;
   const servicesList = document.getElementById(`${city}-services`);
+  const ordinancesList = document.getElementById(`${city}-ordinances`);
+  const sessionsList = document.getElementById(`${city}-sessions`);
+  const closuresList = document.getElementById(`${city}-closures`);
 
-  services.forEach(service, () => {
-    const li = document.createElement("li").textContent;
-    servicesList.appendChild(li);
-  });
+  if (services === "N/A") {
+    const p = document.createElement("p");
+    p.textContent = "N/A";
+    servicesList.appendChild(p);
+  } else {
+    services.forEach((service) => {
+      const li = document.createElement("li");
+      li.textContent = service;
+      servicesList.appendChild(li);
+    });
+  }
+  if (ordinances === "N/A") {
+    const p = document.createElement("p");
+    p.textContent = "N/A";
+    ordinancesList.appendChild(p);
+  } else {
+    const baptisms = document.createElement("ul");
+    const initiatories = document.createElement("ul");
+    const sealings = document.createElement("ul");
+
+    ordinances["baptisms"].forEach((service) => {
+      const li = document.createElement("li");
+      li.textContent = service;
+      baptisms.appendChild(li);
+    });
+    ordinances["initiatories"].forEach((service) => {
+      const li = document.createElement("li");
+      li.textContent = service;
+      initiatories.appendChild(li);
+    });
+    ordinances["sealings"].forEach((service) => {
+      const li = document.createElement("li");
+      li.textContent = service;
+      sealings.appendChild(li);
+    });
+
+    ordinancesList.appendChild(baptisms);
+    ordinancesList.appendChild(initiatories);
+    ordinancesList.appendChild(sealings);
+  }
+  if (sessions === "N/A") {
+    const p = document.createElement("p");
+    p.textContent = "N/A";
+    sessionsList.appendChild(p);
+  } else {
+    sessions.forEach((service) => {
+      const li = document.createElement("li");
+      li.textContent = service;
+      sessionsList.appendChild(li);
+    });
+  }
+  if (closures === "N/A") {
+    const p = document.createElement("p");
+    p.textContent = "Currently Closed for Renovations";
+    closuresList.appendChild(p);
+  } else {
+    console.log("Closures: ", closures);
+    closures.forEach((service) => {
+      const li = document.createElement("li");
+      li.textContent = service;
+      closuresList.appendChild(li);
+    });
+  }
 }
+
+callFetch();

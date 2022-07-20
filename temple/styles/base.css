@@ -115,7 +115,8 @@ footer ul,
 .main-hero ul,
 .services section ul,
 .extended-stay section div ul,
-.business-card ul {
+.business-card ul,
+.temple-card div ul {
   list-style: none;
   text-align: center;
   padding: 1em 0;
@@ -128,7 +129,8 @@ footer li,
 .main-hero li,
 .services section li,
 .extended-stay section div li,
-.business-card li {
+.business-card li,
+.temple-card div li {
   padding: 0.5em;
 }
 
@@ -188,7 +190,8 @@ footer a {
 }
 
 .weather,
-.reception section {
+.reception section,
+.temple section {
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -217,9 +220,31 @@ footer a {
 }
 
 .temple-card {
-  /* width: 45em; */
+  width: 45em;
   max-height: 300px;
   overflow: hidden;
+  border: 3px dashed var(--main);
+  margin: 1em;
+  padding: 1em;
+  position: relative;
+}
+
+#columbus-card.open,
+#palmyra-card.open,
+#nauvoo-card.open,
+#baton-rouge-card.open {
+  max-height: fit-content;
+}
+
+.temple-card div ul {
+  text-align: left;
+  background-color: transparent;
+}
+
+.temple-card button {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
 }
 
 /* -------------------- Reservation Page Styles -------------------- */
