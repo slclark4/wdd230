@@ -1,0 +1,26 @@
+:root {
+  --black: #000000;
+  --main: #d8315b;
+  --white: #ffffff;
+  --accent: #93918a;
+  --heading-font: "Edu VIC WA NT Beginner";
+  --paragraph-font: "Roboto Condensed";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font), cursive;
+}
+
+div,
+span,
+p,
+ul,
+ol,
+a {
+  font-family: var(--paragraph-font), sans-serif;
+}

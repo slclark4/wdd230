@@ -1,0 +1,226 @@
+:root {
+  --black: #000000;
+  --main: #d8315b;
+  --white: #ffffff;
+  --accent: #93918a;
+  --heading-font: "Edu VIC WA NT Beginner";
+  --paragraph-font: "Roboto Condensed";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font), cursive;
+}
+
+div,
+span,
+p,
+ul,
+ol,
+a {
+  font-family: var(--paragraph-font), sans-serif;
+}
+
+/* -------------------- Header Styles -------------------- */
+
+header {
+  padding-bottom: 1em;
+}
+
+header,
+.logo-container,
+.logo-container div,
+footer,
+footer section:nth-of-type(4) ul,
+.weather,
+.weather-item div:nth-of-type(2) {
+  display: flex;
+}
+
+.logo-container {
+  grid-column: 1;
+  color: var(--main);
+  font-size: 1.3em;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: auto 10px;
+  font-size: 1em;
+}
+
+header,
+footer {
+  flex-direction: column;
+}
+
+button {
+  background-color: var(--main);
+  color: var(--white);
+  padding: 0.3em;
+  border-radius: 5px;
+  border: 1px solid var(--white);
+  max-width: 125px;
+}
+
+#menuButton {
+  color: var(--main);
+  background: transparent;
+  grid-column: 3;
+  font-size: 2em;
+}
+
+#closeMenu,
+#menuButton.open #symbol,
+#bookButton,
+#navMenu {
+  display: none;
+}
+
+#menuButton.open #closeMenu,
+#navMenu.open,
+#bookButton.open,
+#navMenu a {
+  display: block;
+}
+
+/* -------------------- UL Style -------------------- */
+
+#navMenu ul,
+footer ul,
+.main-hero ul {
+  list-style: none;
+  text-align: center;
+  padding: 1em 0;
+  background-color: var(--accent);
+  margin: 0 0 10px;
+}
+
+#navMenu li,
+footer li,
+.main-hero li {
+  padding: 0.5em;
+}
+
+#navMenu a,
+footer a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: var(--black);
+  padding: 0.2em;
+}
+
+#navMenu a:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#bookButton {
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+/* -------------------- Button Hover -------------------- */
+#bookButton:hover,
+.main-hero button:hover {
+  background-color: #d66f89;
+}
+
+/* -------------------- Home Page Styles -------------------- */
+.main-hero {
+  background-color: var(--accent);
+  color: var(--black);
+  margin: 0 auto;
+  padding: 0.5em;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  max-width: 80vw;
+}
+
+.main-hero img {
+  width: 100%;
+}
+
+.main-hero picture {
+  max-width: 70vw;
+}
+
+.main-hero button {
+  font-size: 1.2em;
+  max-width: 200px;
+}
+
+.weather {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.weather-item {
+  margin: 0 2em;
+  text-align: center;
+}
+
+.weather-item h5 {
+  font-size: 1.5em;
+  color: var(--main);
+}
+
+.weather-item div:nth-of-type(2) {
+  border-top: 1px solid var(--accent);
+}
+
+.weather-item div:nth-of-type(2) span {
+  padding: 0 0.5em;
+}
+
+/* -------------------- Footer Styles -------------------- */
+footer {
+  margin-top: 3em;
+  border-top: 5px solid var(--main);
+}
+footer h6 {
+  font-size: 1.4em;
+  padding: 0 0 0 0.5em;
+  margin: 0;
+}
+
+footer section {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2em 0;
+  border-top: 2px solid var(--accent);
+}
+
+footer ul {
+  background-color: transparent;
+}
+
+footer section:nth-of-type(1) a {
+  font-size: 1em;
+}
+
+footer section:nth-of-type(1) {
+  border: none;
+}
+
+footer img {
+  width: 100%;
+  background-color: var(--main);
+}
+
+footer section:nth-of-type(4) li {
+  max-width: 60px;
+}
+
+footer section:nth-of-type(4) img:hover {
+  transform: scale(1.15);
+}
+
+footer a:hover {
+  color: var(--main);
+}

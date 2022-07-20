@@ -1,0 +1,135 @@
+@media screen and (min-width: 800px) {
+  :root {
+    --black: #000000;
+    --main: #d8315b;
+    --white: #ffffff;
+    --accent: #93918a;
+    --heading-font: "Edu VIC WA NT Beginner";
+    --paragraph-font: "Roboto Condensed";
+    --copyrightPosition: calc(50vw - 165px / 2);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--heading-font), cursive;
+  }
+
+  div,
+  span,
+  p,
+  ul,
+  ol,
+  a {
+    font-family: var(--paragraph-font), sans-serif;
+  }
+
+  #navMenu ul {
+    display: flex;
+  }
+
+  /* -------------------- Header Styles -------------------- */
+
+  #navMenu,
+  #bookButton {
+    display: block;
+  }
+
+  #menuButton,
+  #closeMenu,
+  #menuButton.open {
+    display: none;
+  }
+
+  #navMenu {
+    grid-column: span 3;
+    grid-row: 2;
+  }
+
+  #navMenu ul {
+    background-color: var(--white);
+    justify-content: center;
+  }
+
+  #navMenu a {
+    color: var(--main);
+  }
+
+  #navMenu a:hover {
+    border-bottom: 2px var(--main) solid;
+    padding-bottom: 3px;
+    transform: scale(1.1);
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 350px 1fr 150px;
+    grid-template-rows: 100px 75px;
+    align-items: center;
+  }
+
+  #bookButton {
+    grid-column: 3;
+  }
+
+  /* -------------------- Home Page Styles -------------------- */
+  .main-hero {
+    padding: 1em 0.5em;
+    top: -60px;
+    min-height: 570px;
+    max-width: 800px;
+  }
+  .main-hero picture {
+    float: left;
+    max-width: 350px;
+    padding: 0.5em;
+  }
+
+  .main-hero h3 {
+    font-size: 1.35em;
+  }
+
+  .main-hero h4 {
+    margin-bottom: 0;
+    font-size: 1.25em;
+  }
+
+  /* -------------------- Footer Styles -------------------- */
+  footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    padding-bottom: 3em;
+  }
+
+  footer section {
+    border-top: none;
+    border-left: 2px solid var(--accent);
+    margin-top: 3em;
+    padding: 0.2em;
+    text-align: left;
+    height: 15em;
+  }
+
+  footer section:nth-of-type(4) ul {
+    flex-direction: column;
+  }
+
+  footer ul {
+    padding-top: 0;
+    text-align: left;
+  }
+
+  footer h6 {
+    margin-bottom: 0.6em;
+  }
+
+  small {
+    position: absolute;
+    bottom: 10px;
+    left: var(--copyrightPosition);
+  }
+}
