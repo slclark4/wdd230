@@ -49,6 +49,7 @@ footer section:nth-of-type(4) ul,
 .extended-stay section:nth-of-type(1),
 .extended-stay section div ul,
 .extended-stay .form-inputs,
+.reception .form-inputs,
 .reception section {
   display: flex;
 }
@@ -258,7 +259,8 @@ footer a {
 }
 
 .reservations form label input,
-.extended-stay .form-inputs input {
+.extended-stay .form-inputs input,
+.reception .form-inputs input {
   font-size: 1.1em;
   height: 1.5em;
   display: block;
@@ -371,23 +373,28 @@ footer a {
   width: fit-content;
 }
 
-.extended-stay form {
+.extended-stay form,
+.reception form {
   max-width: 50vw;
   margin: 0 auto;
   text-align: left;
 }
 
-.extended-stay .form-inputs div {
+.extended-stay .form-inputs div,
+.reception .form-inputs div {
   max-width: fit-content;
   min-width: fit-content;
 }
 
 .extended-stay .form-inputs div,
-.extended-stay .form-inputs {
+.extended-stay .form-inputs,
+.reception .form-inputs div,
+.reception .form-inputs {
   border: none;
 }
 
-.extended-stay textarea {
+.extended-stay textarea,
+.reception textarea {
   display: block;
   width: 100%;
 }
@@ -424,6 +431,10 @@ footer a {
 
 .reception section {
   margin: 0 auto;
+}
+
+.reception form .form-inputs div {
+  margin: 1em;
 }
 
 .business-card ul {
